@@ -1,0 +1,3285 @@
+tuning parameters=
+param colsample_bytree=0.6
+param silent=1
+param eval_metric=auc
+param learning_rate=0.1
+param nthread=1
+param min_child_weight=3
+param bst:max_depth=4
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=120.000000
+
+-------------
+param max_depth=3
+param mini_child_weight=1
+--------------
+Best AMS =3.424546
+Best AMS =3.346091
+Best AMS =3.303172
+Best AMS =3.359426
+Best AMS =3.392550
+
+Thresh = 0.1000: AMS = 3.2192, std = 0.0374
+Accuracy = 0.7421: Precision = 0.9238, FP = 0.0762
+Confusing matrix
+TP=4619  FN=12514
+FP=381  TN=32486
+
+Thresh = 0.1111: AMS = 3.2790, std = 0.0769
+Accuracy = 0.7499: Precision = 0.9168, FP = 0.0832
+Confusing matrix
+TP=5093  FN=12041
+FP=462  TN=32404
+
+Thresh = 0.1222: AMS = 3.3114, std = 0.0615
+Accuracy = 0.7575: Precision = 0.9099, FP = 0.0901
+Confusing matrix
+TP=5560  FN=11573
+FP=551  TN=32316
+
+Thresh = 0.1333: AMS = 3.3344, std = 0.0386
+Accuracy = 0.7650: Precision = 0.9039, FP = 0.0961
+Confusing matrix
+TP=6025  FN=11108
+FP=641  TN=32226
+
+Thresh = 0.1444: AMS = 3.3458, std = 0.0671
+Accuracy = 0.7719: Precision = 0.8967, FP = 0.1033
+Confusing matrix
+TP=6476  FN=10658
+FP=746  TN=32120
+
+Thresh = 0.1556: AMS = 3.3124, std = 0.0571
+Accuracy = 0.7780: Precision = 0.8878, FP = 0.1122
+Confusing matrix
+TP=6905  FN=10229
+FP=872  TN=31994
+
+Thresh = 0.1667: AMS = 3.3237, std = 0.0594
+Accuracy = 0.7843: Precision = 0.8808, FP = 0.1192
+Confusing matrix
+TP=7340  FN=9794
+FP=993  TN=31873
+
+Thresh = 0.1778: AMS = 3.3250, std = 0.0448
+Accuracy = 0.7901: Precision = 0.8734, FP = 0.1266
+Confusing matrix
+TP=7762  FN=9371
+FP=1126  TN=31741
+
+Thresh = 0.1889: AMS = 3.2948, std = 0.0633
+Accuracy = 0.7953: Precision = 0.8652, FP = 0.1348
+Confusing matrix
+TP=8171  FN=8963
+FP=1273  TN=31593
+
+Thresh = 0.2000: AMS = 3.2622, std = 0.0494
+Accuracy = 0.8000: Precision = 0.8567, FP = 0.1433
+Confusing matrix
+TP=8567  FN=8566
+FP=1433  TN=31434
+
+The best solution:
+Thresh = 0.1444: AMS = 3.3458, std = 0.0671
+
+-------------
+param max_depth=3
+param mini_child_weight=3
+--------------
+Best AMS =3.409714
+Best AMS =3.377888
+Best AMS =3.302166
+Best AMS =3.369432
+Best AMS =3.402598
+
+Thresh = 0.1000: AMS = 3.1952, std = 0.0468
+Accuracy = 0.7422: Precision = 0.9242, FP = 0.0758
+Confusing matrix
+TP=4621  FN=12513
+FP=379  TN=32487
+
+Thresh = 0.1111: AMS = 3.2844, std = 0.0690
+Accuracy = 0.7500: Precision = 0.9168, FP = 0.0832
+Confusing matrix
+TP=5093  FN=12040
+FP=462  TN=32405
+
+Thresh = 0.1222: AMS = 3.3086, std = 0.0532
+Accuracy = 0.7577: Precision = 0.9105, FP = 0.0895
+Confusing matrix
+TP=5564  FN=11569
+FP=547  TN=32320
+
+Thresh = 0.1333: AMS = 3.3281, std = 0.0575
+Accuracy = 0.7649: Precision = 0.9034, FP = 0.0966
+Confusing matrix
+TP=6022  FN=11111
+FP=644  TN=32223
+
+Thresh = 0.1444: AMS = 3.3577, std = 0.0485
+Accuracy = 0.7720: Precision = 0.8968, FP = 0.1032
+Confusing matrix
+TP=6477  FN=10657
+FP=745  TN=32121
+
+Thresh = 0.1556: AMS = 3.3436, std = 0.0426
+Accuracy = 0.7781: Precision = 0.8883, FP = 0.1117
+Confusing matrix
+TP=6908  FN=10225
+FP=869  TN=31998
+
+Thresh = 0.1667: AMS = 3.3303, std = 0.0432
+Accuracy = 0.7842: Precision = 0.8807, FP = 0.1193
+Confusing matrix
+TP=7339  FN=9795
+FP=994  TN=31872
+
+Thresh = 0.1778: AMS = 3.3213, std = 0.0405
+Accuracy = 0.7899: Precision = 0.8729, FP = 0.1271
+Confusing matrix
+TP=7758  FN=9375
+FP=1130  TN=31737
+
+Thresh = 0.1889: AMS = 3.2927, std = 0.0502
+Accuracy = 0.7952: Precision = 0.8648, FP = 0.1352
+Confusing matrix
+TP=8168  FN=8966
+FP=1276  TN=31590
+
+Thresh = 0.2000: AMS = 3.2593, std = 0.0457
+Accuracy = 0.8000: Precision = 0.8567, FP = 0.1433
+Confusing matrix
+TP=8567  FN=8567
+FP=1433  TN=31433
+
+The best solution:
+Thresh = 0.1444: AMS = 3.3577, std = 0.0485
+
+-------------
+param max_depth=3
+param mini_child_weight=5
+--------------
+tuning parameters=
+param colsample_bytree=0.6
+param silent=1
+param eval_metric=accuracy
+param learning_rate=0.1
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=120.000000
+tuning parameters=
+param colsample_bytree=0.6
+param silent=1
+param eval_metric=rmse
+param learning_rate=0.1
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=120.000000
+Best AMS =3.693789
+Best AMS =3.612163
+Best AMS =3.598019
+Best AMS =3.600886
+Best AMS =3.726538
+
+Thresh = 0.1000: AMS = 3.4043, std = 0.0630
+Accuracy = 0.7453: Precision = 0.9396, FP = 0.0604
+Confusing matrix
+TP=4698  FN=12435
+FP=302  TN=32565
+
+Thresh = 0.1111: AMS = 3.4934, std = 0.0827
+Accuracy = 0.7537: Precision = 0.9336, FP = 0.0664
+Confusing matrix
+TP=5186  FN=11947
+FP=369  TN=32498
+
+Thresh = 0.1222: AMS = 3.5289, std = 0.0500
+Accuracy = 0.7614: Precision = 0.9259, FP = 0.0741
+Confusing matrix
+TP=5658  FN=11475
+FP=453  TN=32414
+
+Thresh = 0.1333: AMS = 3.5973, std = 0.0583
+Accuracy = 0.7695: Precision = 0.9205, FP = 0.0795
+Confusing matrix
+TP=6136  FN=10997
+FP=530  TN=32337
+
+Thresh = 0.1444: AMS = 3.6208, std = 0.0529
+Accuracy = 0.7769: Precision = 0.9138, FP = 0.0862
+Confusing matrix
+TP=6600  FN=10534
+FP=622  TN=32244
+
+Thresh = 0.1556: AMS = 3.6116, std = 0.0535
+Accuracy = 0.7836: Precision = 0.9060, FP = 0.0940
+Confusing matrix
+TP=7046  FN=10087
+FP=731  TN=32136
+
+Thresh = 0.1667: AMS = 3.5842, std = 0.0633
+Accuracy = 0.7901: Precision = 0.8983, FP = 0.1017
+Confusing matrix
+TP=7486  FN=9648
+FP=847  TN=32019
+
+Thresh = 0.1778: AMS = 3.5646, std = 0.0418
+Accuracy = 0.7962: Precision = 0.8907, FP = 0.1093
+Confusing matrix
+TP=7917  FN=9217
+FP=971  TN=31895
+
+Thresh = 0.1889: AMS = 3.5357, std = 0.0457
+Accuracy = 0.8020: Precision = 0.8829, FP = 0.1171
+Confusing matrix
+TP=8338  FN=8795
+FP=1106  TN=31761
+
+Thresh = 0.2000: AMS = 3.5099, std = 0.0281
+Accuracy = 0.8070: Precision = 0.8741, FP = 0.1259
+Confusing matrix
+TP=8741  FN=8392
+FP=1259  TN=31608
+
+The best solution:
+Thresh = 0.1444: AMS = 3.6208, std = 0.0529
+tuning parameters=
+param colsample_bytree=0.6
+param silent=1
+param eval_metric=rmse
+param learning_rate=0.1
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=120.000000
+tuning parameters=
+param colsample_bytree=0.6
+param silent=1
+param eval_metric=rmse
+param learning_rate=0.1
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=120.000000
+Best AMS =3.700186
+Best AMS =3.619262
+Best AMS =3.604163
+Best AMS =3.607034
+Best AMS =3.708029
+
+Thresh = 0.1000: AMS = 3.4043, std = 0.0630
+Accuracy = 0.7453: Precision = 0.9396, FP = 0.0604
+Confusing matrix
+TP=4698  FN=12435
+FP=302  TN=32565
+
+Thresh = 0.1103: AMS = 3.4751, std = 0.0880
+Accuracy = 0.7530: Precision = 0.9336, FP = 0.0664
+Confusing matrix
+TP=5151  FN=11983
+FP=366  TN=32500
+
+Thresh = 0.1207: AMS = 3.5331, std = 0.0472
+Accuracy = 0.7604: Precision = 0.9271, FP = 0.0729
+Confusing matrix
+TP=5594  FN=11539
+FP=440  TN=32427
+
+Thresh = 0.1310: AMS = 3.5877, std = 0.0681
+Accuracy = 0.7680: Precision = 0.9222, FP = 0.0778
+Confusing matrix
+TP=6041  FN=11092
+FP=510  TN=32357
+
+Thresh = 0.1414: AMS = 3.6172, std = 0.0540
+Accuracy = 0.7749: Precision = 0.9160, FP = 0.0840
+Confusing matrix
+TP=6474  FN=10659
+FP=594  TN=32273
+
+Thresh = 0.1517: AMS = 3.6212, std = 0.0440
+Accuracy = 0.7813: Precision = 0.9086, FP = 0.0914
+Confusing matrix
+TP=6893  FN=10240
+FP=693  TN=32174
+
+Thresh = 0.1621: AMS = 3.5946, std = 0.0555
+Accuracy = 0.7875: Precision = 0.9017, FP = 0.0983
+Confusing matrix
+TP=7306  FN=9827
+FP=797  TN=32070
+
+Thresh = 0.1724: AMS = 3.5766, std = 0.0346
+Accuracy = 0.7933: Precision = 0.8944, FP = 0.1056
+Confusing matrix
+TP=7710  FN=9424
+FP=910  TN=31956
+
+Thresh = 0.1828: AMS = 3.5584, std = 0.0430
+Accuracy = 0.7988: Precision = 0.8871, FP = 0.1129
+Confusing matrix
+TP=8106  FN=9028
+FP=1031  TN=31835
+
+Thresh = 0.1931: AMS = 3.5359, std = 0.0372
+Accuracy = 0.8041: Precision = 0.8801, FP = 0.1199
+Confusing matrix
+TP=8497  FN=8636
+FP=1158  TN=31709
+
+Thresh = 0.2034: AMS = 3.4976, std = 0.0361
+Accuracy = 0.8085: Precision = 0.8716, FP = 0.1284
+Confusing matrix
+TP=8866  FN=8268
+FP=1306  TN=31560
+
+Thresh = 0.2138: AMS = 3.4636, std = 0.0338
+Accuracy = 0.8127: Precision = 0.8634, FP = 0.1366
+Confusing matrix
+TP=9229  FN=7904
+FP=1460  TN=31407
+
+Thresh = 0.2241: AMS = 3.4219, std = 0.0424
+Accuracy = 0.8165: Precision = 0.8550, FP = 0.1450
+Confusing matrix
+TP=9581  FN=7552
+FP=1625  TN=31242
+
+Thresh = 0.2345: AMS = 3.3797, std = 0.0474
+Accuracy = 0.8201: Precision = 0.8472, FP = 0.1528
+Confusing matrix
+TP=9932  FN=7201
+FP=1792  TN=31075
+
+Thresh = 0.2448: AMS = 3.3208, std = 0.0478
+Accuracy = 0.8227: Precision = 0.8377, FP = 0.1623
+Confusing matrix
+TP=10254  FN=6879
+FP=1987  TN=30880
+
+Thresh = 0.2552: AMS = 3.2868, std = 0.0433
+Accuracy = 0.8255: Precision = 0.8295, FP = 0.1705
+Confusing matrix
+TP=10583  FN=6550
+FP=2175  TN=30692
+
+Thresh = 0.2655: AMS = 3.2245, std = 0.0411
+Accuracy = 0.8273: Precision = 0.8201, FP = 0.1799
+Confusing matrix
+TP=10887  FN=6246
+FP=2388  TN=30479
+
+Thresh = 0.2759: AMS = 3.1767, std = 0.0376
+Accuracy = 0.8291: Precision = 0.8113, FP = 0.1887
+Confusing matrix
+TP=11190  FN=5943
+FP=2603  TN=30264
+
+Thresh = 0.2862: AMS = 3.1385, std = 0.0540
+Accuracy = 0.8307: Precision = 0.8029, FP = 0.1971
+Confusing matrix
+TP=11489  FN=5644
+FP=2821  TN=30046
+
+Thresh = 0.2966: AMS = 3.0815, std = 0.0561
+Accuracy = 0.8311: Precision = 0.7931, FP = 0.2069
+Confusing matrix
+TP=11759  FN=5375
+FP=3068  TN=29798
+
+Thresh = 0.3069: AMS = 3.0290, std = 0.0585
+Accuracy = 0.8314: Precision = 0.7837, FP = 0.2163
+Confusing matrix
+TP=12025  FN=5109
+FP=3319  TN=29547
+
+Thresh = 0.3172: AMS = 2.9748, std = 0.0524
+Accuracy = 0.8313: Precision = 0.7742, FP = 0.2258
+Confusing matrix
+TP=12281  FN=4853
+FP=3581  TN=29285
+
+Thresh = 0.3276: AMS = 2.9225, std = 0.0540
+Accuracy = 0.8308: Precision = 0.7647, FP = 0.2353
+Confusing matrix
+TP=12525  FN=4608
+FP=3854  TN=29013
+
+Thresh = 0.3379: AMS = 2.8774, std = 0.0565
+Accuracy = 0.8299: Precision = 0.7553, FP = 0.2447
+Confusing matrix
+TP=12762  FN=4372
+FP=4134  TN=28732
+
+Thresh = 0.3483: AMS = 2.8337, std = 0.0533
+Accuracy = 0.8287: Precision = 0.7460, FP = 0.2540
+Confusing matrix
+TP=12990  FN=4143
+FP=4423  TN=28444
+
+Thresh = 0.3586: AMS = 2.7940, std = 0.0493
+Accuracy = 0.8276: Precision = 0.7374, FP = 0.2626
+Confusing matrix
+TP=13223  FN=3910
+FP=4708  TN=28159
+
+Thresh = 0.3690: AMS = 2.7502, std = 0.0499
+Accuracy = 0.8258: Precision = 0.7283, FP = 0.2717
+Confusing matrix
+TP=13436  FN=3697
+FP=5012  TN=27855
+
+Thresh = 0.3793: AMS = 2.6972, std = 0.0479
+Accuracy = 0.8231: Precision = 0.7185, FP = 0.2815
+Confusing matrix
+TP=13627  FN=3506
+FP=5338  TN=27529
+
+Thresh = 0.3897: AMS = 2.6556, std = 0.0440
+Accuracy = 0.8206: Precision = 0.7095, FP = 0.2905
+Confusing matrix
+TP=13822  FN=3312
+FP=5660  TN=27206
+
+Thresh = 0.4000: AMS = 2.6146, std = 0.0379
+Accuracy = 0.8176: Precision = 0.7003, FP = 0.2997
+Confusing matrix
+TP=14006  FN=3127
+FP=5994  TN=26873
+
+The best solution:
+Thresh = 0.1517: AMS = 3.6212, std = 0.0440
+tuning parameters=
+param colsample_bytree=0.6
+param silent=1
+param eval_metric=rmse
+param learning_rate=0.2
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=100.000000
+Best AMS =3.668434
+Best AMS =3.646790
+Best AMS =3.624890
+Best AMS =3.616389
+Best AMS =3.644765
+
+Thresh = 0.1000: AMS = 3.4236, std = 0.0887
+Accuracy = 0.7454: Precision = 0.9402, FP = 0.0598
+Confusing matrix
+TP=4701  FN=12432
+FP=299  TN=32568
+
+Thresh = 0.1103: AMS = 3.4718, std = 0.0789
+Accuracy = 0.7531: Precision = 0.9341, FP = 0.0659
+Confusing matrix
+TP=5154  FN=11980
+FP=363  TN=32503
+
+Thresh = 0.1207: AMS = 3.5377, std = 0.0639
+Accuracy = 0.7606: Precision = 0.9280, FP = 0.0720
+Confusing matrix
+TP=5600  FN=11534
+FP=434  TN=32432
+
+Thresh = 0.1310: AMS = 3.5649, std = 0.0765
+Accuracy = 0.7676: Precision = 0.9209, FP = 0.0791
+Confusing matrix
+TP=6033  FN=11100
+FP=518  TN=32349
+
+Thresh = 0.1414: AMS = 3.6040, std = 0.0525
+Accuracy = 0.7746: Precision = 0.9148, FP = 0.0852
+Confusing matrix
+TP=6466  FN=10668
+FP=602  TN=32264
+
+Thresh = 0.1517: AMS = 3.6055, std = 0.0293
+Accuracy = 0.7811: Precision = 0.9078, FP = 0.0922
+Confusing matrix
+TP=6887  FN=10247
+FP=699  TN=32167
+
+Thresh = 0.1621: AMS = 3.5844, std = 0.0296
+Accuracy = 0.7871: Precision = 0.9004, FP = 0.0996
+Confusing matrix
+TP=7296  FN=9837
+FP=807  TN=32060
+
+Thresh = 0.1724: AMS = 3.5721, std = 0.0559
+Accuracy = 0.7932: Precision = 0.8941, FP = 0.1059
+Confusing matrix
+TP=7707  FN=9426
+FP=913  TN=31954
+
+Thresh = 0.1828: AMS = 3.5471, std = 0.0429
+Accuracy = 0.7987: Precision = 0.8868, FP = 0.1132
+Confusing matrix
+TP=8103  FN=9031
+FP=1034  TN=31832
+
+Thresh = 0.1931: AMS = 3.5222, std = 0.0500
+Accuracy = 0.8035: Precision = 0.8784, FP = 0.1216
+Confusing matrix
+TP=8481  FN=8653
+FP=1174  TN=31692
+
+Thresh = 0.2034: AMS = 3.4744, std = 0.0505
+Accuracy = 0.8078: Precision = 0.8699, FP = 0.1301
+Confusing matrix
+TP=8849  FN=8285
+FP=1323  TN=31543
+
+Thresh = 0.2138: AMS = 3.4430, std = 0.0373
+Accuracy = 0.8121: Precision = 0.8619, FP = 0.1381
+Confusing matrix
+TP=9213  FN=7920
+FP=1476  TN=31391
+
+Thresh = 0.2241: AMS = 3.3921, std = 0.0252
+Accuracy = 0.8160: Precision = 0.8540, FP = 0.1460
+Confusing matrix
+TP=9570  FN=7563
+FP=1636  TN=31231
+
+Thresh = 0.2345: AMS = 3.3362, std = 0.0377
+Accuracy = 0.8193: Precision = 0.8453, FP = 0.1547
+Confusing matrix
+TP=9910  FN=7223
+FP=1814  TN=31053
+
+Thresh = 0.2448: AMS = 3.2976, std = 0.0388
+Accuracy = 0.8222: Precision = 0.8368, FP = 0.1632
+Confusing matrix
+TP=10243  FN=6890
+FP=1998  TN=30869
+
+Thresh = 0.2552: AMS = 3.2604, std = 0.0389
+Accuracy = 0.8251: Precision = 0.8287, FP = 0.1713
+Confusing matrix
+TP=10572  FN=6561
+FP=2186  TN=30681
+
+Thresh = 0.2655: AMS = 3.2164, std = 0.0393
+Accuracy = 0.8272: Precision = 0.8198, FP = 0.1802
+Confusing matrix
+TP=10883  FN=6250
+FP=2392  TN=30475
+
+Thresh = 0.2759: AMS = 3.1756, std = 0.0499
+Accuracy = 0.8290: Precision = 0.8112, FP = 0.1888
+Confusing matrix
+TP=11188  FN=5945
+FP=2605  TN=30262
+
+Thresh = 0.2862: AMS = 3.1225, std = 0.0533
+Accuracy = 0.8302: Precision = 0.8020, FP = 0.1980
+Confusing matrix
+TP=11477  FN=5656
+FP=2833  TN=30034
+
+Thresh = 0.2966: AMS = 3.0691, std = 0.0588
+Accuracy = 0.8308: Precision = 0.7924, FP = 0.2076
+Confusing matrix
+TP=11749  FN=5384
+FP=3078  TN=29789
+
+Thresh = 0.3069: AMS = 3.0131, std = 0.0608
+Accuracy = 0.8312: Precision = 0.7833, FP = 0.2167
+Confusing matrix
+TP=12018  FN=5115
+FP=3326  TN=29541
+
+Thresh = 0.3172: AMS = 2.9644, std = 0.0646
+Accuracy = 0.8311: Precision = 0.7738, FP = 0.2262
+Confusing matrix
+TP=12275  FN=4859
+FP=3587  TN=29279
+
+Thresh = 0.3276: AMS = 2.9200, std = 0.0601
+Accuracy = 0.8309: Precision = 0.7649, FP = 0.2351
+Confusing matrix
+TP=12528  FN=4606
+FP=3851  TN=29015
+
+Thresh = 0.3379: AMS = 2.8708, std = 0.0535
+Accuracy = 0.8301: Precision = 0.7557, FP = 0.2443
+Confusing matrix
+TP=12768  FN=4366
+FP=4128  TN=28738
+
+Thresh = 0.3483: AMS = 2.8254, std = 0.0519
+Accuracy = 0.8290: Precision = 0.7464, FP = 0.2536
+Confusing matrix
+TP=12997  FN=4136
+FP=4416  TN=28451
+
+Thresh = 0.3586: AMS = 2.7793, std = 0.0448
+Accuracy = 0.8273: Precision = 0.7369, FP = 0.2631
+Confusing matrix
+TP=13214  FN=3919
+FP=4717  TN=28150
+
+Thresh = 0.3690: AMS = 2.7363, std = 0.0382
+Accuracy = 0.8256: Precision = 0.7280, FP = 0.2720
+Confusing matrix
+TP=13430  FN=3703
+FP=5018  TN=27849
+
+Thresh = 0.3793: AMS = 2.6830, std = 0.0360
+Accuracy = 0.8230: Precision = 0.7184, FP = 0.2816
+Confusing matrix
+TP=13625  FN=3508
+FP=5340  TN=27527
+
+Thresh = 0.3897: AMS = 2.6411, std = 0.0330
+Accuracy = 0.8205: Precision = 0.7093, FP = 0.2907
+Confusing matrix
+TP=13819  FN=3314
+FP=5663  TN=27204
+
+Thresh = 0.4000: AMS = 2.6014, std = 0.0350
+Accuracy = 0.8178: Precision = 0.7005, FP = 0.2995
+Confusing matrix
+TP=14011  FN=3123
+FP=5989  TN=26877
+
+The best solution:
+Thresh = 0.1517: AMS = 3.6055, std = 0.0293
+tuning parameters=
+param colsample_bytree=0.6
+param silent=1
+param eval_metric=rmse
+param learning_rate=0.2
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=100.000000
+
+-------------
+param max_depth=3
+param mini_child_weight=1
+--------------
+Best AMS =3.524678
+Best AMS =3.406837
+Best AMS =3.483959
+Best AMS =3.527055
+Best AMS =3.483649
+
+Thresh = 0.1000: AMS = 3.2865, std = 0.0703
+Accuracy = 0.7433: Precision = 0.9298, FP = 0.0702
+Confusing matrix
+TP=4649  FN=12485
+FP=351  TN=32515
+
+Thresh = 0.1103: AMS = 3.3365, std = 0.0670
+Accuracy = 0.7509: Precision = 0.9242, FP = 0.0758
+Confusing matrix
+TP=5099  FN=12035
+FP=418  TN=32448
+
+Thresh = 0.1207: AMS = 3.3952, std = 0.0485
+Accuracy = 0.7582: Precision = 0.9181, FP = 0.0819
+Confusing matrix
+TP=5540  FN=11594
+FP=494  TN=32372
+
+Thresh = 0.1310: AMS = 3.3964, std = 0.0426
+Accuracy = 0.7651: Precision = 0.9113, FP = 0.0887
+Confusing matrix
+TP=5970  FN=11163
+FP=581  TN=32286
+
+Thresh = 0.1414: AMS = 3.4582, std = 0.0542
+Accuracy = 0.7719: Precision = 0.9054, FP = 0.0946
+Confusing matrix
+TP=6399  FN=10734
+FP=669  TN=32198
+
+Thresh = 0.1517: AMS = 3.4690, std = 0.0385
+Accuracy = 0.7784: Precision = 0.8989, FP = 0.1011
+Confusing matrix
+TP=6819  FN=10315
+FP=767  TN=32099
+
+Thresh = 0.1621: AMS = 3.4627, std = 0.0383
+Accuracy = 0.7844: Precision = 0.8919, FP = 0.1081
+Confusing matrix
+TP=7227  FN=9906
+FP=876  TN=31991
+
+Thresh = 0.1724: AMS = 3.4481, std = 0.0317
+Accuracy = 0.7901: Precision = 0.8850, FP = 0.1150
+Confusing matrix
+TP=7628  FN=9505
+FP=992  TN=31875
+
+Thresh = 0.1828: AMS = 3.4175, std = 0.0462
+Accuracy = 0.7953: Precision = 0.8775, FP = 0.1225
+Confusing matrix
+TP=8018  FN=9116
+FP=1119  TN=31747
+
+Thresh = 0.1931: AMS = 3.3830, std = 0.0611
+Accuracy = 0.8000: Precision = 0.8695, FP = 0.1305
+Confusing matrix
+TP=8395  FN=8738
+FP=1260  TN=31607
+
+Thresh = 0.2034: AMS = 3.3453, std = 0.0584
+Accuracy = 0.8044: Precision = 0.8614, FP = 0.1386
+Confusing matrix
+TP=8762  FN=8371
+FP=1410  TN=31457
+
+Thresh = 0.2138: AMS = 3.3112, std = 0.0518
+Accuracy = 0.8085: Precision = 0.8535, FP = 0.1465
+Confusing matrix
+TP=9123  FN=8011
+FP=1566  TN=31300
+
+Thresh = 0.2241: AMS = 3.2877, std = 0.0435
+Accuracy = 0.8124: Precision = 0.8459, FP = 0.1541
+Confusing matrix
+TP=9479  FN=7654
+FP=1727  TN=31140
+
+Thresh = 0.2345: AMS = 3.2487, std = 0.0350
+Accuracy = 0.8155: Precision = 0.8372, FP = 0.1628
+Confusing matrix
+TP=9816  FN=7318
+FP=1908  TN=30958
+
+Thresh = 0.2448: AMS = 3.2121, std = 0.0379
+Accuracy = 0.8184: Precision = 0.8289, FP = 0.1711
+Confusing matrix
+TP=10146  FN=6987
+FP=2095  TN=30772
+
+Thresh = 0.2552: AMS = 3.1687, std = 0.0481
+Accuracy = 0.8207: Precision = 0.8201, FP = 0.1799
+Confusing matrix
+TP=10462  FN=6671
+FP=2296  TN=30571
+
+Thresh = 0.2655: AMS = 3.1278, std = 0.0466
+Accuracy = 0.8229: Precision = 0.8118, FP = 0.1882
+Confusing matrix
+TP=10776  FN=6357
+FP=2499  TN=30368
+
+Thresh = 0.2759: AMS = 3.0922, std = 0.0417
+Accuracy = 0.8244: Precision = 0.8028, FP = 0.1972
+Confusing matrix
+TP=11073  FN=6061
+FP=2720  TN=30146
+
+Thresh = 0.2862: AMS = 3.0450, std = 0.0434
+Accuracy = 0.8254: Precision = 0.7936, FP = 0.2064
+Confusing matrix
+TP=11356  FN=5777
+FP=2954  TN=29913
+
+Thresh = 0.2966: AMS = 3.0047, std = 0.0476
+Accuracy = 0.8263: Precision = 0.7849, FP = 0.2151
+Confusing matrix
+TP=11638  FN=5496
+FP=3189  TN=29677
+
+Thresh = 0.3069: AMS = 2.9598, std = 0.0489
+Accuracy = 0.8265: Precision = 0.7755, FP = 0.2245
+Confusing matrix
+TP=11900  FN=5233
+FP=3444  TN=29423
+
+Thresh = 0.3172: AMS = 2.9172, std = 0.0500
+Accuracy = 0.8265: Precision = 0.7665, FP = 0.2335
+Confusing matrix
+TP=12159  FN=4974
+FP=3703  TN=29164
+
+Thresh = 0.3276: AMS = 2.8746, std = 0.0493
+Accuracy = 0.8261: Precision = 0.7576, FP = 0.2424
+Confusing matrix
+TP=12409  FN=4725
+FP=3970  TN=28896
+
+Thresh = 0.3379: AMS = 2.8313, std = 0.0467
+Accuracy = 0.8253: Precision = 0.7485, FP = 0.2515
+Confusing matrix
+TP=12647  FN=4487
+FP=4249  TN=28617
+
+Thresh = 0.3483: AMS = 2.7881, std = 0.0497
+Accuracy = 0.8239: Precision = 0.7392, FP = 0.2608
+Confusing matrix
+TP=12871  FN=4262
+FP=4542  TN=28325
+
+Thresh = 0.3586: AMS = 2.7461, std = 0.0494
+Accuracy = 0.8229: Precision = 0.7308, FP = 0.2692
+Confusing matrix
+TP=13104  FN=4030
+FP=4827  TN=28039
+
+Thresh = 0.3690: AMS = 2.7012, std = 0.0455
+Accuracy = 0.8208: Precision = 0.7215, FP = 0.2785
+Confusing matrix
+TP=13310  FN=3823
+FP=5138  TN=27729
+
+Thresh = 0.3793: AMS = 2.6593, std = 0.0486
+Accuracy = 0.8184: Precision = 0.7124, FP = 0.2876
+Confusing matrix
+TP=13510  FN=3623
+FP=5455  TN=27412
+
+Thresh = 0.3897: AMS = 2.6182, std = 0.0390
+Accuracy = 0.8157: Precision = 0.7033, FP = 0.2967
+Confusing matrix
+TP=13701  FN=3433
+FP=5781  TN=27085
+
+Thresh = 0.4000: AMS = 2.5725, std = 0.0398
+Accuracy = 0.8124: Precision = 0.6938, FP = 0.3062
+Confusing matrix
+TP=13877  FN=3257
+FP=6123  TN=26743
+
+The best solution:
+Thresh = 0.1517: AMS = 3.4690, std = 0.0385
+
+-------------
+param max_depth=3
+param mini_child_weight=3
+--------------
+Best AMS =3.460373
+Best AMS =3.441210
+Best AMS =3.486644
+Best AMS =3.521654
+Best AMS =3.498391
+
+Thresh = 0.1000: AMS = 3.2670, std = 0.0794
+Accuracy = 0.7434: Precision = 0.9305, FP = 0.0695
+Confusing matrix
+TP=4653  FN=12481
+FP=347  TN=32519
+
+Thresh = 0.1103: AMS = 3.3439, std = 0.0509
+Accuracy = 0.7510: Precision = 0.9246, FP = 0.0754
+Confusing matrix
+TP=5101  FN=12032
+FP=416  TN=32451
+
+Thresh = 0.1207: AMS = 3.3738, std = 0.0554
+Accuracy = 0.7582: Precision = 0.9178, FP = 0.0822
+Confusing matrix
+TP=5538  FN=11595
+FP=496  TN=32371
+
+Thresh = 0.1310: AMS = 3.4086, std = 0.0326
+Accuracy = 0.7652: Precision = 0.9118, FP = 0.0882
+Confusing matrix
+TP=5973  FN=11160
+FP=578  TN=32289
+
+Thresh = 0.1414: AMS = 3.4457, std = 0.0250
+Accuracy = 0.7720: Precision = 0.9055, FP = 0.0945
+Confusing matrix
+TP=6400  FN=10734
+FP=668  TN=32198
+
+Thresh = 0.1517: AMS = 3.4534, std = 0.0400
+Accuracy = 0.7783: Precision = 0.8988, FP = 0.1012
+Confusing matrix
+TP=6818  FN=10315
+FP=768  TN=32099
+
+Thresh = 0.1621: AMS = 3.4513, std = 0.0462
+Accuracy = 0.7841: Precision = 0.8913, FP = 0.1087
+Confusing matrix
+TP=7222  FN=9912
+FP=881  TN=31985
+
+Thresh = 0.1724: AMS = 3.4116, std = 0.0635
+Accuracy = 0.7895: Precision = 0.8834, FP = 0.1166
+Confusing matrix
+TP=7615  FN=9518
+FP=1005  TN=31862
+
+Thresh = 0.1828: AMS = 3.3972, std = 0.0460
+Accuracy = 0.7948: Precision = 0.8762, FP = 0.1238
+Confusing matrix
+TP=8006  FN=9128
+FP=1131  TN=31735
+
+Thresh = 0.1931: AMS = 3.3956, std = 0.0541
+Accuracy = 0.7998: Precision = 0.8689, FP = 0.1311
+Confusing matrix
+TP=8390  FN=8744
+FP=1265  TN=31601
+
+Thresh = 0.2034: AMS = 3.3452, std = 0.0542
+Accuracy = 0.8042: Precision = 0.8610, FP = 0.1390
+Confusing matrix
+TP=8758  FN=8376
+FP=1414  TN=31452
+
+Thresh = 0.2138: AMS = 3.2908, std = 0.0432
+Accuracy = 0.8080: Precision = 0.8523, FP = 0.1477
+Confusing matrix
+TP=9110  FN=8023
+FP=1579  TN=31288
+
+Thresh = 0.2241: AMS = 3.2628, std = 0.0354
+Accuracy = 0.8116: Precision = 0.8441, FP = 0.1559
+Confusing matrix
+TP=9459  FN=7674
+FP=1747  TN=31120
+
+Thresh = 0.2345: AMS = 3.2448, std = 0.0391
+Accuracy = 0.8151: Precision = 0.8365, FP = 0.1635
+Confusing matrix
+TP=9807  FN=7327
+FP=1917  TN=30949
+
+Thresh = 0.2448: AMS = 3.2162, std = 0.0388
+Accuracy = 0.8183: Precision = 0.8287, FP = 0.1713
+Confusing matrix
+TP=10144  FN=6989
+FP=2097  TN=30770
+
+Thresh = 0.2552: AMS = 3.1764, std = 0.0496
+Accuracy = 0.8206: Precision = 0.8200, FP = 0.1800
+Confusing matrix
+TP=10462  FN=6672
+FP=2296  TN=30570
+
+Thresh = 0.2655: AMS = 3.1277, std = 0.0486
+Accuracy = 0.8225: Precision = 0.8110, FP = 0.1890
+Confusing matrix
+TP=10766  FN=6367
+FP=2509  TN=30358
+
+Thresh = 0.2759: AMS = 3.0853, std = 0.0403
+Accuracy = 0.8241: Precision = 0.8022, FP = 0.1978
+Confusing matrix
+TP=11065  FN=6068
+FP=2728  TN=30139
+
+Thresh = 0.2862: AMS = 3.0426, std = 0.0494
+Accuracy = 0.8252: Precision = 0.7933, FP = 0.2067
+Confusing matrix
+TP=11353  FN=5781
+FP=2957  TN=29909
+
+Thresh = 0.2966: AMS = 2.9956, std = 0.0450
+Accuracy = 0.8258: Precision = 0.7840, FP = 0.2160
+Confusing matrix
+TP=11624  FN=5509
+FP=3203  TN=29664
+
+Thresh = 0.3069: AMS = 2.9517, std = 0.0434
+Accuracy = 0.8259: Precision = 0.7747, FP = 0.2253
+Confusing matrix
+TP=11887  FN=5247
+FP=3457  TN=29409
+
+Thresh = 0.3172: AMS = 2.9183, std = 0.0447
+Accuracy = 0.8262: Precision = 0.7662, FP = 0.2338
+Confusing matrix
+TP=12153  FN=4980
+FP=3709  TN=29158
+
+Thresh = 0.3276: AMS = 2.8672, std = 0.0481
+Accuracy = 0.8257: Precision = 0.7570, FP = 0.2430
+Confusing matrix
+TP=12399  FN=4734
+FP=3980  TN=28887
+
+Thresh = 0.3379: AMS = 2.8289, std = 0.0511
+Accuracy = 0.8251: Precision = 0.7483, FP = 0.2517
+Confusing matrix
+TP=12643  FN=4490
+FP=4253  TN=28614
+
+Thresh = 0.3483: AMS = 2.7896, std = 0.0536
+Accuracy = 0.8240: Precision = 0.7393, FP = 0.2607
+Confusing matrix
+TP=12873  FN=4260
+FP=4540  TN=28327
+
+Thresh = 0.3586: AMS = 2.7449, std = 0.0456
+Accuracy = 0.8227: Precision = 0.7306, FP = 0.2694
+Confusing matrix
+TP=13100  FN=4034
+FP=4831  TN=28035
+
+Thresh = 0.3690: AMS = 2.7040, std = 0.0410
+Accuracy = 0.8209: Precision = 0.7216, FP = 0.2784
+Confusing matrix
+TP=13313  FN=3821
+FP=5135  TN=27731
+
+Thresh = 0.3793: AMS = 2.6601, std = 0.0465
+Accuracy = 0.8182: Precision = 0.7121, FP = 0.2879
+Confusing matrix
+TP=13505  FN=3628
+FP=5460  TN=27407
+
+Thresh = 0.3897: AMS = 2.6198, std = 0.0403
+Accuracy = 0.8157: Precision = 0.7033, FP = 0.2967
+Confusing matrix
+TP=13701  FN=3432
+FP=5781  TN=27086
+
+Thresh = 0.4000: AMS = 2.5746, std = 0.0409
+Accuracy = 0.8124: Precision = 0.6938, FP = 0.3062
+Confusing matrix
+TP=13876  FN=3257
+FP=6124  TN=26743
+
+The best solution:
+Thresh = 0.1517: AMS = 3.4534, std = 0.0400
+
+-------------
+param max_depth=3
+param mini_child_weight=5
+--------------
+Best AMS =3.468547
+Best AMS =3.411925
+Best AMS =3.525976
+Best AMS =3.501158
+Best AMS =3.519455
+
+Thresh = 0.1000: AMS = 3.2389, std = 0.0631
+Accuracy = 0.7434: Precision = 0.9303, FP = 0.0697
+Confusing matrix
+TP=4651  FN=12482
+FP=349  TN=32518
+
+Thresh = 0.1103: AMS = 3.3367, std = 0.0599
+Accuracy = 0.7510: Precision = 0.9245, FP = 0.0755
+Confusing matrix
+TP=5101  FN=12033
+FP=416  TN=32450
+
+Thresh = 0.1207: AMS = 3.4059, std = 0.0366
+Accuracy = 0.7585: Precision = 0.9191, FP = 0.0809
+Confusing matrix
+TP=5546  FN=11587
+FP=488  TN=32379
+
+Thresh = 0.1310: AMS = 3.4293, std = 0.0313
+Accuracy = 0.7655: Precision = 0.9129, FP = 0.0871
+Confusing matrix
+TP=5980  FN=11153
+FP=571  TN=32296
+
+Thresh = 0.1414: AMS = 3.4310, std = 0.0331
+Accuracy = 0.7720: Precision = 0.9054, FP = 0.0946
+Confusing matrix
+TP=6400  FN=10734
+FP=668  TN=32198
+
+Thresh = 0.1517: AMS = 3.4680, std = 0.0409
+Accuracy = 0.7784: Precision = 0.8990, FP = 0.1010
+Confusing matrix
+TP=6820  FN=10313
+FP=766  TN=32101
+
+Thresh = 0.1621: AMS = 3.4520, std = 0.0464
+Accuracy = 0.7844: Precision = 0.8919, FP = 0.1081
+Confusing matrix
+TP=7227  FN=9906
+FP=876  TN=31991
+
+Thresh = 0.1724: AMS = 3.4629, std = 0.0540
+Accuracy = 0.7903: Precision = 0.8856, FP = 0.1144
+Confusing matrix
+TP=7634  FN=9499
+FP=986  TN=31881
+
+Thresh = 0.1828: AMS = 3.4122, std = 0.0621
+Accuracy = 0.7952: Precision = 0.8773, FP = 0.1227
+Confusing matrix
+TP=8016  FN=9117
+FP=1121  TN=31746
+
+Thresh = 0.1931: AMS = 3.3842, std = 0.0742
+Accuracy = 0.8000: Precision = 0.8695, FP = 0.1305
+Confusing matrix
+TP=8395  FN=8738
+FP=1260  TN=31607
+
+Thresh = 0.2034: AMS = 3.3506, std = 0.0495
+Accuracy = 0.8044: Precision = 0.8615, FP = 0.1385
+Confusing matrix
+TP=8763  FN=8371
+FP=1409  TN=31457
+
+Thresh = 0.2138: AMS = 3.3238, std = 0.0538
+Accuracy = 0.8084: Precision = 0.8534, FP = 0.1466
+Confusing matrix
+TP=9122  FN=8012
+FP=1567  TN=31299
+
+Thresh = 0.2241: AMS = 3.2729, std = 0.0406
+Accuracy = 0.8118: Precision = 0.8446, FP = 0.1554
+Confusing matrix
+TP=9465  FN=7669
+FP=1741  TN=31125
+
+Thresh = 0.2345: AMS = 3.2410, std = 0.0371
+Accuracy = 0.8152: Precision = 0.8366, FP = 0.1634
+Confusing matrix
+TP=9808  FN=7325
+FP=1916  TN=30951
+
+Thresh = 0.2448: AMS = 3.1948, std = 0.0350
+Accuracy = 0.8179: Precision = 0.8279, FP = 0.1721
+Confusing matrix
+TP=10134  FN=6999
+FP=2107  TN=30760
+
+Thresh = 0.2552: AMS = 3.1672, std = 0.0447
+Accuracy = 0.8205: Precision = 0.8197, FP = 0.1803
+Confusing matrix
+TP=10458  FN=6676
+FP=2300  TN=30566
+
+Thresh = 0.2655: AMS = 3.1332, std = 0.0505
+Accuracy = 0.8227: Precision = 0.8115, FP = 0.1885
+Confusing matrix
+TP=10772  FN=6361
+FP=2503  TN=30364
+
+Thresh = 0.2759: AMS = 3.0882, std = 0.0494
+Accuracy = 0.8240: Precision = 0.8020, FP = 0.1980
+Confusing matrix
+TP=11062  FN=6071
+FP=2731  TN=30136
+
+Thresh = 0.2862: AMS = 3.0570, std = 0.0493
+Accuracy = 0.8255: Precision = 0.7938, FP = 0.2062
+Confusing matrix
+TP=11359  FN=5775
+FP=2951  TN=29915
+
+Thresh = 0.2966: AMS = 3.0065, std = 0.0448
+Accuracy = 0.8260: Precision = 0.7845, FP = 0.2155
+Confusing matrix
+TP=11631  FN=5502
+FP=3196  TN=29671
+
+Thresh = 0.3069: AMS = 2.9650, std = 0.0438
+Accuracy = 0.8264: Precision = 0.7754, FP = 0.2246
+Confusing matrix
+TP=11898  FN=5235
+FP=3446  TN=29421
+
+Thresh = 0.3172: AMS = 2.9232, std = 0.0528
+Accuracy = 0.8264: Precision = 0.7665, FP = 0.2335
+Confusing matrix
+TP=12158  FN=4975
+FP=3704  TN=29163
+
+Thresh = 0.3276: AMS = 2.8737, std = 0.0537
+Accuracy = 0.8258: Precision = 0.7572, FP = 0.2428
+Confusing matrix
+TP=12402  FN=4731
+FP=3977  TN=28890
+
+Thresh = 0.3379: AMS = 2.8275, std = 0.0484
+Accuracy = 0.8248: Precision = 0.7477, FP = 0.2523
+Confusing matrix
+TP=12634  FN=4500
+FP=4262  TN=28604
+
+Thresh = 0.3483: AMS = 2.7913, std = 0.0510
+Accuracy = 0.8240: Precision = 0.7393, FP = 0.2607
+Confusing matrix
+TP=12874  FN=4260
+FP=4539  TN=28327
+
+Thresh = 0.3586: AMS = 2.7507, std = 0.0390
+Accuracy = 0.8226: Precision = 0.7305, FP = 0.2695
+Confusing matrix
+TP=13098  FN=4035
+FP=4833  TN=28034
+
+Thresh = 0.3690: AMS = 2.7021, std = 0.0394
+Accuracy = 0.8205: Precision = 0.7211, FP = 0.2789
+Confusing matrix
+TP=13302  FN=3831
+FP=5146  TN=27721
+
+Thresh = 0.3793: AMS = 2.6607, std = 0.0434
+Accuracy = 0.8181: Precision = 0.7119, FP = 0.2881
+Confusing matrix
+TP=13502  FN=3632
+FP=5463  TN=27403
+
+Thresh = 0.3897: AMS = 2.6184, std = 0.0427
+Accuracy = 0.8154: Precision = 0.7029, FP = 0.2971
+Confusing matrix
+TP=13693  FN=3440
+FP=5789  TN=27078
+
+Thresh = 0.4000: AMS = 2.5755, std = 0.0413
+Accuracy = 0.8123: Precision = 0.6937, FP = 0.3063
+Confusing matrix
+TP=13874  FN=3260
+FP=6126  TN=26740
+
+The best solution:
+Thresh = 0.1517: AMS = 3.4680, std = 0.0409
+
+-------------
+param max_depth=5
+param mini_child_weight=1
+--------------
+Best AMS =3.658204
+Best AMS =3.500917
+Best AMS =3.596709
+Best AMS =3.538635
+Best AMS =3.704959
+
+Thresh = 0.1000: AMS = 3.3476, std = 0.0573
+Accuracy = 0.7446: Precision = 0.9366, FP = 0.0634
+Confusing matrix
+TP=4683  FN=12451
+FP=317  TN=32549
+
+Thresh = 0.1103: AMS = 3.4033, std = 0.0307
+Accuracy = 0.7524: Precision = 0.9307, FP = 0.0693
+Confusing matrix
+TP=5135  FN=11999
+FP=382  TN=32484
+
+Thresh = 0.1207: AMS = 3.5024, std = 0.0157
+Accuracy = 0.7599: Precision = 0.9249, FP = 0.0751
+Confusing matrix
+TP=5581  FN=11553
+FP=453  TN=32413
+
+Thresh = 0.1310: AMS = 3.5164, std = 0.0357
+Accuracy = 0.7669: Precision = 0.9183, FP = 0.0817
+Confusing matrix
+TP=6016  FN=11118
+FP=535  TN=32331
+
+Thresh = 0.1414: AMS = 3.5417, std = 0.0659
+Accuracy = 0.7739: Precision = 0.9123, FP = 0.0877
+Confusing matrix
+TP=6448  FN=10685
+FP=620  TN=32247
+
+Thresh = 0.1517: AMS = 3.5678, std = 0.0791
+Accuracy = 0.7805: Precision = 0.9059, FP = 0.0941
+Confusing matrix
+TP=6872  FN=10261
+FP=714  TN=32153
+
+Thresh = 0.1621: AMS = 3.5929, std = 0.0813
+Accuracy = 0.7868: Precision = 0.8993, FP = 0.1007
+Confusing matrix
+TP=7287  FN=9846
+FP=816  TN=32051
+
+Thresh = 0.1724: AMS = 3.5733, std = 0.0820
+Accuracy = 0.7927: Precision = 0.8925, FP = 0.1075
+Confusing matrix
+TP=7693  FN=9440
+FP=927  TN=31940
+
+Thresh = 0.1828: AMS = 3.5281, std = 0.0649
+Accuracy = 0.7980: Precision = 0.8848, FP = 0.1152
+Confusing matrix
+TP=8084  FN=9049
+FP=1053  TN=31814
+
+Thresh = 0.1931: AMS = 3.5195, std = 0.0598
+Accuracy = 0.8033: Precision = 0.8781, FP = 0.1219
+Confusing matrix
+TP=8478  FN=8656
+FP=1177  TN=31689
+
+Thresh = 0.2034: AMS = 3.4752, std = 0.0546
+Accuracy = 0.8078: Precision = 0.8699, FP = 0.1301
+Confusing matrix
+TP=8848  FN=8285
+FP=1324  TN=31543
+
+Thresh = 0.2138: AMS = 3.4135, std = 0.0526
+Accuracy = 0.8115: Precision = 0.8607, FP = 0.1393
+Confusing matrix
+TP=9200  FN=7934
+FP=1489  TN=31377
+
+Thresh = 0.2241: AMS = 3.3614, std = 0.0379
+Accuracy = 0.8152: Precision = 0.8522, FP = 0.1478
+Confusing matrix
+TP=9550  FN=7583
+FP=1656  TN=31211
+
+Thresh = 0.2345: AMS = 3.3431, std = 0.0475
+Accuracy = 0.8189: Precision = 0.8445, FP = 0.1555
+Confusing matrix
+TP=9901  FN=7233
+FP=1823  TN=31043
+
+Thresh = 0.2448: AMS = 3.2954, std = 0.0413
+Accuracy = 0.8217: Precision = 0.8357, FP = 0.1643
+Confusing matrix
+TP=10230  FN=6903
+FP=2011  TN=30856
+
+Thresh = 0.2552: AMS = 3.2627, std = 0.0452
+Accuracy = 0.8246: Precision = 0.8277, FP = 0.1723
+Confusing matrix
+TP=10560  FN=6574
+FP=2198  TN=30668
+
+Thresh = 0.2655: AMS = 3.2078, std = 0.0525
+Accuracy = 0.8264: Precision = 0.8184, FP = 0.1816
+Confusing matrix
+TP=10865  FN=6269
+FP=2410  TN=30456
+
+Thresh = 0.2759: AMS = 3.1650, std = 0.0460
+Accuracy = 0.8281: Precision = 0.8096, FP = 0.1904
+Confusing matrix
+TP=11166  FN=5967
+FP=2627  TN=30240
+
+Thresh = 0.2862: AMS = 3.1132, std = 0.0504
+Accuracy = 0.8293: Precision = 0.8004, FP = 0.1996
+Confusing matrix
+TP=11453  FN=5680
+FP=2857  TN=30010
+
+Thresh = 0.2966: AMS = 3.0723, std = 0.0472
+Accuracy = 0.8303: Precision = 0.7916, FP = 0.2084
+Confusing matrix
+TP=11737  FN=5397
+FP=3090  TN=29776
+
+Thresh = 0.3069: AMS = 3.0237, std = 0.0452
+Accuracy = 0.8307: Precision = 0.7825, FP = 0.2175
+Confusing matrix
+TP=12006  FN=5127
+FP=3338  TN=29529
+
+Thresh = 0.3172: AMS = 2.9628, std = 0.0453
+Accuracy = 0.8303: Precision = 0.7726, FP = 0.2274
+Confusing matrix
+TP=12254  FN=4879
+FP=3608  TN=29259
+
+Thresh = 0.3276: AMS = 2.9182, std = 0.0466
+Accuracy = 0.8301: Precision = 0.7638, FP = 0.2362
+Confusing matrix
+TP=12510  FN=4624
+FP=3869  TN=28997
+
+Thresh = 0.3379: AMS = 2.8687, std = 0.0490
+Accuracy = 0.8292: Precision = 0.7542, FP = 0.2458
+Confusing matrix
+TP=12744  FN=4390
+FP=4152  TN=28714
+
+Thresh = 0.3483: AMS = 2.8229, std = 0.0433
+Accuracy = 0.8279: Precision = 0.7449, FP = 0.2551
+Confusing matrix
+TP=12970  FN=4163
+FP=4443  TN=28424
+
+Thresh = 0.3586: AMS = 2.7815, std = 0.0444
+Accuracy = 0.8267: Precision = 0.7362, FP = 0.2638
+Confusing matrix
+TP=13200  FN=3933
+FP=4731  TN=28136
+
+Thresh = 0.3690: AMS = 2.7382, std = 0.0424
+Accuracy = 0.8247: Precision = 0.7268, FP = 0.2732
+Confusing matrix
+TP=13408  FN=3726
+FP=5040  TN=27826
+
+Thresh = 0.3793: AMS = 2.6928, std = 0.0428
+Accuracy = 0.8221: Precision = 0.7172, FP = 0.2828
+Confusing matrix
+TP=13602  FN=3531
+FP=5363  TN=27504
+
+Thresh = 0.3897: AMS = 2.6484, std = 0.0361
+Accuracy = 0.8196: Precision = 0.7083, FP = 0.2917
+Confusing matrix
+TP=13798  FN=3335
+FP=5684  TN=27183
+
+Thresh = 0.4000: AMS = 2.6055, std = 0.0345
+Accuracy = 0.8165: Precision = 0.6989, FP = 0.3011
+Confusing matrix
+TP=13979  FN=3155
+FP=6021  TN=26845
+
+The best solution:
+Thresh = 0.1621: AMS = 3.5929, std = 0.0813
+
+-------------
+param max_depth=5
+param mini_child_weight=3
+--------------
+Best AMS =3.598865
+Best AMS =3.538532
+Best AMS =3.638477
+Best AMS =3.618754
+Best AMS =3.739300
+
+Thresh = 0.1000: AMS = 3.3532, std = 0.0264
+Accuracy = 0.7446: Precision = 0.9363, FP = 0.0637
+Confusing matrix
+TP=4681  FN=12452
+FP=319  TN=32548
+
+Thresh = 0.1103: AMS = 3.4652, std = 0.0591
+Accuracy = 0.7523: Precision = 0.9305, FP = 0.0695
+Confusing matrix
+TP=5133  FN=12000
+FP=384  TN=32483
+
+Thresh = 0.1207: AMS = 3.5083, std = 0.0475
+Accuracy = 0.7599: Precision = 0.9248, FP = 0.0752
+Confusing matrix
+TP=5580  FN=11553
+FP=454  TN=32413
+
+Thresh = 0.1310: AMS = 3.5554, std = 0.0188
+Accuracy = 0.7672: Precision = 0.9194, FP = 0.0806
+Confusing matrix
+TP=6023  FN=11111
+FP=528  TN=32338
+
+Thresh = 0.1414: AMS = 3.5659, std = 0.0568
+Accuracy = 0.7740: Precision = 0.9127, FP = 0.0873
+Confusing matrix
+TP=6451  FN=10683
+FP=617  TN=32249
+
+Thresh = 0.1517: AMS = 3.5987, std = 0.0745
+Accuracy = 0.7807: Precision = 0.9066, FP = 0.0934
+Confusing matrix
+TP=6877  FN=10256
+FP=709  TN=32158
+
+Thresh = 0.1621: AMS = 3.5889, std = 0.0892
+Accuracy = 0.7870: Precision = 0.9001, FP = 0.0999
+Confusing matrix
+TP=7293  FN=9840
+FP=810  TN=32057
+
+Thresh = 0.1724: AMS = 3.6026, std = 0.0875
+Accuracy = 0.7930: Precision = 0.8936, FP = 0.1064
+Confusing matrix
+TP=7703  FN=9431
+FP=917  TN=31949
+
+Thresh = 0.1828: AMS = 3.5710, std = 0.0784
+Accuracy = 0.7986: Precision = 0.8865, FP = 0.1135
+Confusing matrix
+TP=8100  FN=9033
+FP=1037  TN=31830
+
+Thresh = 0.1931: AMS = 3.5212, std = 0.0686
+Accuracy = 0.8033: Precision = 0.8779, FP = 0.1221
+Confusing matrix
+TP=8476  FN=8658
+FP=1179  TN=31687
+
+Thresh = 0.2034: AMS = 3.4658, std = 0.0422
+Accuracy = 0.8075: Precision = 0.8691, FP = 0.1309
+Confusing matrix
+TP=8840  FN=8293
+FP=1332  TN=31535
+
+Thresh = 0.2138: AMS = 3.4186, std = 0.0479
+Accuracy = 0.8115: Precision = 0.8607, FP = 0.1393
+Confusing matrix
+TP=9200  FN=7934
+FP=1489  TN=31377
+
+Thresh = 0.2241: AMS = 3.3682, std = 0.0587
+Accuracy = 0.8151: Precision = 0.8520, FP = 0.1480
+Confusing matrix
+TP=9548  FN=7586
+FP=1658  TN=31208
+
+Thresh = 0.2345: AMS = 3.3176, std = 0.0487
+Accuracy = 0.8184: Precision = 0.8434, FP = 0.1566
+Confusing matrix
+TP=9888  FN=7246
+FP=1836  TN=31030
+
+Thresh = 0.2448: AMS = 3.2852, std = 0.0393
+Accuracy = 0.8215: Precision = 0.8353, FP = 0.1647
+Confusing matrix
+TP=10225  FN=6908
+FP=2016  TN=30851
+
+Thresh = 0.2552: AMS = 3.2512, std = 0.0520
+Accuracy = 0.8242: Precision = 0.8270, FP = 0.1730
+Confusing matrix
+TP=10551  FN=6583
+FP=2207  TN=30659
+
+Thresh = 0.2655: AMS = 3.2040, std = 0.0543
+Accuracy = 0.8262: Precision = 0.8181, FP = 0.1819
+Confusing matrix
+TP=10860  FN=6273
+FP=2415  TN=30452
+
+Thresh = 0.2759: AMS = 3.1569, std = 0.0570
+Accuracy = 0.8278: Precision = 0.8090, FP = 0.1910
+Confusing matrix
+TP=11159  FN=5974
+FP=2634  TN=30233
+
+Thresh = 0.2862: AMS = 3.1179, std = 0.0525
+Accuracy = 0.8294: Precision = 0.8006, FP = 0.1994
+Confusing matrix
+TP=11456  FN=5677
+FP=2854  TN=30013
+
+Thresh = 0.2966: AMS = 3.0684, std = 0.0554
+Accuracy = 0.8302: Precision = 0.7915, FP = 0.2085
+Confusing matrix
+TP=11735  FN=5398
+FP=3092  TN=29775
+
+Thresh = 0.3069: AMS = 3.0162, std = 0.0559
+Accuracy = 0.8306: Precision = 0.7822, FP = 0.2178
+Confusing matrix
+TP=12003  FN=5131
+FP=3341  TN=29525
+
+Thresh = 0.3172: AMS = 2.9663, std = 0.0540
+Accuracy = 0.8304: Precision = 0.7728, FP = 0.2272
+Confusing matrix
+TP=12259  FN=4875
+FP=3603  TN=29263
+
+Thresh = 0.3276: AMS = 2.9173, std = 0.0527
+Accuracy = 0.8299: Precision = 0.7634, FP = 0.2366
+Confusing matrix
+TP=12504  FN=4630
+FP=3875  TN=28991
+
+Thresh = 0.3379: AMS = 2.8677, std = 0.0606
+Accuracy = 0.8287: Precision = 0.7536, FP = 0.2464
+Confusing matrix
+TP=12733  FN=4401
+FP=4163  TN=28703
+
+Thresh = 0.3483: AMS = 2.8207, std = 0.0556
+Accuracy = 0.8276: Precision = 0.7445, FP = 0.2555
+Confusing matrix
+TP=12964  FN=4169
+FP=4449  TN=28418
+
+Thresh = 0.3586: AMS = 2.7786, std = 0.0433
+Accuracy = 0.8261: Precision = 0.7353, FP = 0.2647
+Confusing matrix
+TP=13184  FN=3950
+FP=4747  TN=28119
+
+Thresh = 0.3690: AMS = 2.7303, std = 0.0411
+Accuracy = 0.8243: Precision = 0.7262, FP = 0.2738
+Confusing matrix
+TP=13398  FN=3736
+FP=5050  TN=27816
+
+Thresh = 0.3793: AMS = 2.6914, std = 0.0394
+Accuracy = 0.8221: Precision = 0.7172, FP = 0.2828
+Confusing matrix
+TP=13602  FN=3532
+FP=5363  TN=27503
+
+Thresh = 0.3897: AMS = 2.6494, std = 0.0381
+Accuracy = 0.8196: Precision = 0.7082, FP = 0.2918
+Confusing matrix
+TP=13798  FN=3336
+FP=5684  TN=27182
+
+Thresh = 0.4000: AMS = 2.6076, std = 0.0367
+Accuracy = 0.8166: Precision = 0.6991, FP = 0.3009
+Confusing matrix
+TP=13982  FN=3151
+FP=6018  TN=26849
+
+The best solution:
+Thresh = 0.1724: AMS = 3.6026, std = 0.0875
+
+-------------
+param max_depth=5
+param mini_child_weight=5
+--------------
+Best AMS =3.685408
+Best AMS =3.557029
+Best AMS =3.644577
+Best AMS =3.594433
+Best AMS =3.640219
+
+Thresh = 0.1000: AMS = 3.3637, std = 0.0470
+Accuracy = 0.7448: Precision = 0.9372, FP = 0.0628
+Confusing matrix
+TP=4686  FN=12447
+FP=314  TN=32553
+
+Thresh = 0.1103: AMS = 3.4034, std = 0.0636
+Accuracy = 0.7522: Precision = 0.9299, FP = 0.0701
+Confusing matrix
+TP=5130  FN=12003
+FP=387  TN=32480
+
+Thresh = 0.1207: AMS = 3.4727, std = 0.0540
+Accuracy = 0.7597: Precision = 0.9240, FP = 0.0760
+Confusing matrix
+TP=5576  FN=11558
+FP=458  TN=32408
+
+Thresh = 0.1310: AMS = 3.5402, std = 0.0574
+Accuracy = 0.7670: Precision = 0.9186, FP = 0.0814
+Confusing matrix
+TP=6018  FN=11116
+FP=533  TN=32333
+
+Thresh = 0.1414: AMS = 3.5474, std = 0.0638
+Accuracy = 0.7736: Precision = 0.9113, FP = 0.0887
+Confusing matrix
+TP=6441  FN=10692
+FP=627  TN=32240
+
+Thresh = 0.1517: AMS = 3.5829, std = 0.0849
+Accuracy = 0.7804: Precision = 0.9056, FP = 0.0944
+Confusing matrix
+TP=6870  FN=10263
+FP=716  TN=32151
+
+Thresh = 0.1621: AMS = 3.5687, std = 0.0692
+Accuracy = 0.7866: Precision = 0.8990, FP = 0.1010
+Confusing matrix
+TP=7284  FN=9849
+FP=819  TN=32048
+
+Thresh = 0.1724: AMS = 3.5590, std = 0.0714
+Accuracy = 0.7926: Precision = 0.8922, FP = 0.1078
+Confusing matrix
+TP=7691  FN=9443
+FP=929  TN=31937
+
+Thresh = 0.1828: AMS = 3.5474, std = 0.0640
+Accuracy = 0.7981: Precision = 0.8853, FP = 0.1147
+Confusing matrix
+TP=8089  FN=9045
+FP=1048  TN=31818
+
+Thresh = 0.1931: AMS = 3.5477, std = 0.0667
+Accuracy = 0.8035: Precision = 0.8786, FP = 0.1214
+Confusing matrix
+TP=8483  FN=8651
+FP=1172  TN=31694
+
+Thresh = 0.2034: AMS = 3.5136, std = 0.0633
+Accuracy = 0.8082: Precision = 0.8709, FP = 0.1291
+Confusing matrix
+TP=8858  FN=8275
+FP=1314  TN=31553
+
+Thresh = 0.2138: AMS = 3.4376, std = 0.0670
+Accuracy = 0.8119: Precision = 0.8615, FP = 0.1385
+Confusing matrix
+TP=9209  FN=7924
+FP=1480  TN=31387
+
+Thresh = 0.2241: AMS = 3.3904, std = 0.0490
+Accuracy = 0.8157: Precision = 0.8532, FP = 0.1468
+Confusing matrix
+TP=9561  FN=7572
+FP=1645  TN=31222
+
+Thresh = 0.2345: AMS = 3.3447, std = 0.0394
+Accuracy = 0.8190: Precision = 0.8447, FP = 0.1553
+Confusing matrix
+TP=9904  FN=7230
+FP=1820  TN=31046
+
+Thresh = 0.2448: AMS = 3.2964, std = 0.0446
+Accuracy = 0.8216: Precision = 0.8355, FP = 0.1645
+Confusing matrix
+TP=10228  FN=6906
+FP=2013  TN=30853
+
+Thresh = 0.2552: AMS = 3.2597, std = 0.0434
+Accuracy = 0.8241: Precision = 0.8269, FP = 0.1731
+Confusing matrix
+TP=10549  FN=6584
+FP=2209  TN=30658
+
+Thresh = 0.2655: AMS = 3.2140, std = 0.0473
+Accuracy = 0.8261: Precision = 0.8178, FP = 0.1822
+Confusing matrix
+TP=10856  FN=6278
+FP=2419  TN=30447
+
+Thresh = 0.2759: AMS = 3.1587, std = 0.0426
+Accuracy = 0.8277: Precision = 0.8088, FP = 0.1912
+Confusing matrix
+TP=11155  FN=5978
+FP=2638  TN=30229
+
+Thresh = 0.2862: AMS = 3.1038, std = 0.0477
+Accuracy = 0.8288: Precision = 0.7996, FP = 0.2004
+Confusing matrix
+TP=11442  FN=5692
+FP=2868  TN=29998
+
+Thresh = 0.2966: AMS = 3.0657, std = 0.0588
+Accuracy = 0.8299: Precision = 0.7910, FP = 0.2090
+Confusing matrix
+TP=11729  FN=5405
+FP=3098  TN=29768
+
+Thresh = 0.3069: AMS = 3.0154, std = 0.0568
+Accuracy = 0.8301: Precision = 0.7815, FP = 0.2185
+Confusing matrix
+TP=11992  FN=5141
+FP=3352  TN=29515
+
+Thresh = 0.3172: AMS = 2.9601, std = 0.0588
+Accuracy = 0.8300: Precision = 0.7721, FP = 0.2279
+Confusing matrix
+TP=12247  FN=4886
+FP=3615  TN=29252
+
+Thresh = 0.3276: AMS = 2.9106, std = 0.0535
+Accuracy = 0.8295: Precision = 0.7628, FP = 0.2372
+Confusing matrix
+TP=12494  FN=4640
+FP=3885  TN=28981
+
+Thresh = 0.3379: AMS = 2.8676, std = 0.0562
+Accuracy = 0.8289: Precision = 0.7538, FP = 0.2462
+Confusing matrix
+TP=12736  FN=4397
+FP=4160  TN=28707
+
+Thresh = 0.3483: AMS = 2.8266, std = 0.0486
+Accuracy = 0.8280: Precision = 0.7451, FP = 0.2549
+Confusing matrix
+TP=12974  FN=4159
+FP=4439  TN=28428
+
+Thresh = 0.3586: AMS = 2.7843, std = 0.0489
+Accuracy = 0.8266: Precision = 0.7360, FP = 0.2640
+Confusing matrix
+TP=13197  FN=3937
+FP=4734  TN=28132
+
+Thresh = 0.3690: AMS = 2.7426, std = 0.0433
+Accuracy = 0.8247: Precision = 0.7268, FP = 0.2732
+Confusing matrix
+TP=13409  FN=3725
+FP=5039  TN=27827
+
+Thresh = 0.3793: AMS = 2.6929, std = 0.0390
+Accuracy = 0.8223: Precision = 0.7175, FP = 0.2825
+Confusing matrix
+TP=13607  FN=3526
+FP=5358  TN=27509
+
+Thresh = 0.3897: AMS = 2.6483, std = 0.0376
+Accuracy = 0.8197: Precision = 0.7083, FP = 0.2917
+Confusing matrix
+TP=13799  FN=3334
+FP=5683  TN=27184
+
+Thresh = 0.4000: AMS = 2.6074, std = 0.0324
+Accuracy = 0.8168: Precision = 0.6993, FP = 0.3007
+Confusing matrix
+TP=13986  FN=3147
+FP=6014  TN=26853
+
+The best solution:
+Thresh = 0.1517: AMS = 3.5829, std = 0.0849
+
+-------------
+param max_depth=6
+param mini_child_weight=1
+--------------
+Best AMS =3.668434
+Best AMS =3.646790
+Best AMS =3.624890
+Best AMS =3.616389
+Best AMS =3.644765
+
+Thresh = 0.1000: AMS = 3.4236, std = 0.0887
+Accuracy = 0.7454: Precision = 0.9402, FP = 0.0598
+Confusing matrix
+TP=4701  FN=12432
+FP=299  TN=32568
+
+Thresh = 0.1103: AMS = 3.4718, std = 0.0789
+Accuracy = 0.7531: Precision = 0.9341, FP = 0.0659
+Confusing matrix
+TP=5154  FN=11980
+FP=363  TN=32503
+
+Thresh = 0.1207: AMS = 3.5377, std = 0.0639
+Accuracy = 0.7606: Precision = 0.9280, FP = 0.0720
+Confusing matrix
+TP=5600  FN=11534
+FP=434  TN=32432
+
+Thresh = 0.1310: AMS = 3.5649, std = 0.0765
+Accuracy = 0.7676: Precision = 0.9209, FP = 0.0791
+Confusing matrix
+TP=6033  FN=11100
+FP=518  TN=32349
+
+Thresh = 0.1414: AMS = 3.6040, std = 0.0525
+Accuracy = 0.7746: Precision = 0.9148, FP = 0.0852
+Confusing matrix
+TP=6466  FN=10668
+FP=602  TN=32264
+
+Thresh = 0.1517: AMS = 3.6055, std = 0.0293
+Accuracy = 0.7811: Precision = 0.9078, FP = 0.0922
+Confusing matrix
+TP=6887  FN=10247
+FP=699  TN=32167
+
+Thresh = 0.1621: AMS = 3.5844, std = 0.0296
+Accuracy = 0.7871: Precision = 0.9004, FP = 0.0996
+Confusing matrix
+TP=7296  FN=9837
+FP=807  TN=32060
+
+Thresh = 0.1724: AMS = 3.5721, std = 0.0559
+Accuracy = 0.7932: Precision = 0.8941, FP = 0.1059
+Confusing matrix
+TP=7707  FN=9426
+FP=913  TN=31954
+
+Thresh = 0.1828: AMS = 3.5471, std = 0.0429
+Accuracy = 0.7987: Precision = 0.8868, FP = 0.1132
+Confusing matrix
+TP=8103  FN=9031
+FP=1034  TN=31832
+
+Thresh = 0.1931: AMS = 3.5222, std = 0.0500
+Accuracy = 0.8035: Precision = 0.8784, FP = 0.1216
+Confusing matrix
+TP=8481  FN=8653
+FP=1174  TN=31692
+
+Thresh = 0.2034: AMS = 3.4744, std = 0.0505
+Accuracy = 0.8078: Precision = 0.8699, FP = 0.1301
+Confusing matrix
+TP=8849  FN=8285
+FP=1323  TN=31543
+
+Thresh = 0.2138: AMS = 3.4430, std = 0.0373
+Accuracy = 0.8121: Precision = 0.8619, FP = 0.1381
+Confusing matrix
+TP=9213  FN=7920
+FP=1476  TN=31391
+
+Thresh = 0.2241: AMS = 3.3921, std = 0.0252
+Accuracy = 0.8160: Precision = 0.8540, FP = 0.1460
+Confusing matrix
+TP=9570  FN=7563
+FP=1636  TN=31231
+
+Thresh = 0.2345: AMS = 3.3362, std = 0.0377
+Accuracy = 0.8193: Precision = 0.8453, FP = 0.1547
+Confusing matrix
+TP=9910  FN=7223
+FP=1814  TN=31053
+
+Thresh = 0.2448: AMS = 3.2976, std = 0.0388
+Accuracy = 0.8222: Precision = 0.8368, FP = 0.1632
+Confusing matrix
+TP=10243  FN=6890
+FP=1998  TN=30869
+
+Thresh = 0.2552: AMS = 3.2604, std = 0.0389
+Accuracy = 0.8251: Precision = 0.8287, FP = 0.1713
+Confusing matrix
+TP=10572  FN=6561
+FP=2186  TN=30681
+
+Thresh = 0.2655: AMS = 3.2164, std = 0.0393
+Accuracy = 0.8272: Precision = 0.8198, FP = 0.1802
+Confusing matrix
+TP=10883  FN=6250
+FP=2392  TN=30475
+
+Thresh = 0.2759: AMS = 3.1756, std = 0.0499
+Accuracy = 0.8290: Precision = 0.8112, FP = 0.1888
+Confusing matrix
+TP=11188  FN=5945
+FP=2605  TN=30262
+
+Thresh = 0.2862: AMS = 3.1225, std = 0.0533
+Accuracy = 0.8302: Precision = 0.8020, FP = 0.1980
+Confusing matrix
+TP=11477  FN=5656
+FP=2833  TN=30034
+
+Thresh = 0.2966: AMS = 3.0691, std = 0.0588
+Accuracy = 0.8308: Precision = 0.7924, FP = 0.2076
+Confusing matrix
+TP=11749  FN=5384
+FP=3078  TN=29789
+
+Thresh = 0.3069: AMS = 3.0131, std = 0.0608
+Accuracy = 0.8312: Precision = 0.7833, FP = 0.2167
+Confusing matrix
+TP=12018  FN=5115
+FP=3326  TN=29541
+
+Thresh = 0.3172: AMS = 2.9644, std = 0.0646
+Accuracy = 0.8311: Precision = 0.7738, FP = 0.2262
+Confusing matrix
+TP=12275  FN=4859
+FP=3587  TN=29279
+
+Thresh = 0.3276: AMS = 2.9200, std = 0.0601
+Accuracy = 0.8309: Precision = 0.7649, FP = 0.2351
+Confusing matrix
+TP=12528  FN=4606
+FP=3851  TN=29015
+
+Thresh = 0.3379: AMS = 2.8708, std = 0.0535
+Accuracy = 0.8301: Precision = 0.7557, FP = 0.2443
+Confusing matrix
+TP=12768  FN=4366
+FP=4128  TN=28738
+
+Thresh = 0.3483: AMS = 2.8254, std = 0.0519
+Accuracy = 0.8290: Precision = 0.7464, FP = 0.2536
+Confusing matrix
+TP=12997  FN=4136
+FP=4416  TN=28451
+
+Thresh = 0.3586: AMS = 2.7793, std = 0.0448
+Accuracy = 0.8273: Precision = 0.7369, FP = 0.2631
+Confusing matrix
+TP=13214  FN=3919
+FP=4717  TN=28150
+
+Thresh = 0.3690: AMS = 2.7363, std = 0.0382
+Accuracy = 0.8256: Precision = 0.7280, FP = 0.2720
+Confusing matrix
+TP=13430  FN=3703
+FP=5018  TN=27849
+
+Thresh = 0.3793: AMS = 2.6830, std = 0.0360
+Accuracy = 0.8230: Precision = 0.7184, FP = 0.2816
+Confusing matrix
+TP=13625  FN=3508
+FP=5340  TN=27527
+
+Thresh = 0.3897: AMS = 2.6411, std = 0.0330
+Accuracy = 0.8205: Precision = 0.7093, FP = 0.2907
+Confusing matrix
+TP=13819  FN=3314
+FP=5663  TN=27204
+
+Thresh = 0.4000: AMS = 2.6014, std = 0.0350
+Accuracy = 0.8178: Precision = 0.7005, FP = 0.2995
+Confusing matrix
+TP=14011  FN=3123
+FP=5989  TN=26877
+
+The best solution:
+Thresh = 0.1517: AMS = 3.6055, std = 0.0293
+
+-------------
+param max_depth=6
+param mini_child_weight=3
+--------------
+Best AMS =3.596481
+Best AMS =3.620919
+Best AMS =3.607533
+Best AMS =3.600870
+Best AMS =3.683781
+
+Thresh = 0.1000: AMS = 3.3865, std = 0.1211
+Accuracy = 0.7451: Precision = 0.9390, FP = 0.0610
+Confusing matrix
+TP=4695  FN=12438
+FP=305  TN=32562
+
+Thresh = 0.1103: AMS = 3.4699, std = 0.0759
+Accuracy = 0.7529: Precision = 0.9330, FP = 0.0670
+Confusing matrix
+TP=5148  FN=11986
+FP=369  TN=32497
+
+Thresh = 0.1207: AMS = 3.5172, std = 0.0534
+Accuracy = 0.7603: Precision = 0.9266, FP = 0.0734
+Confusing matrix
+TP=5591  FN=11542
+FP=443  TN=32424
+
+Thresh = 0.1310: AMS = 3.5447, std = 0.0401
+Accuracy = 0.7675: Precision = 0.9204, FP = 0.0796
+Confusing matrix
+TP=6030  FN=11104
+FP=521  TN=32345
+
+Thresh = 0.1414: AMS = 3.5775, std = 0.0562
+Accuracy = 0.7745: Precision = 0.9144, FP = 0.0856
+Confusing matrix
+TP=6463  FN=10670
+FP=605  TN=32262
+
+Thresh = 0.1517: AMS = 3.5646, std = 0.0466
+Accuracy = 0.7808: Precision = 0.9070, FP = 0.0930
+Confusing matrix
+TP=6880  FN=10253
+FP=706  TN=32161
+
+Thresh = 0.1621: AMS = 3.5674, std = 0.0708
+Accuracy = 0.7872: Precision = 0.9005, FP = 0.0995
+Confusing matrix
+TP=7297  FN=9836
+FP=806  TN=32061
+
+Thresh = 0.1724: AMS = 3.5662, std = 0.0722
+Accuracy = 0.7931: Precision = 0.8936, FP = 0.1064
+Confusing matrix
+TP=7703  FN=9430
+FP=917  TN=31950
+
+Thresh = 0.1828: AMS = 3.5364, std = 0.0637
+Accuracy = 0.7986: Precision = 0.8865, FP = 0.1135
+Confusing matrix
+TP=8100  FN=9034
+FP=1037  TN=31829
+
+Thresh = 0.1931: AMS = 3.5252, std = 0.0632
+Accuracy = 0.8037: Precision = 0.8790, FP = 0.1210
+Confusing matrix
+TP=8487  FN=8646
+FP=1168  TN=31699
+
+Thresh = 0.2034: AMS = 3.4730, std = 0.0552
+Accuracy = 0.8082: Precision = 0.8707, FP = 0.1293
+Confusing matrix
+TP=8857  FN=8277
+FP=1315  TN=31551
+
+Thresh = 0.2138: AMS = 3.4288, std = 0.0416
+Accuracy = 0.8124: Precision = 0.8628, FP = 0.1372
+Confusing matrix
+TP=9222  FN=7911
+FP=1467  TN=31400
+
+Thresh = 0.2241: AMS = 3.3845, std = 0.0260
+Accuracy = 0.8162: Precision = 0.8544, FP = 0.1456
+Confusing matrix
+TP=9575  FN=7559
+FP=1631  TN=31235
+
+Thresh = 0.2345: AMS = 3.3374, std = 0.0303
+Accuracy = 0.8192: Precision = 0.8452, FP = 0.1548
+Confusing matrix
+TP=9909  FN=7225
+FP=1815  TN=31051
+
+Thresh = 0.2448: AMS = 3.3040, std = 0.0438
+Accuracy = 0.8225: Precision = 0.8373, FP = 0.1627
+Confusing matrix
+TP=10249  FN=6885
+FP=1992  TN=30874
+
+Thresh = 0.2552: AMS = 3.2607, std = 0.0563
+Accuracy = 0.8250: Precision = 0.8285, FP = 0.1715
+Confusing matrix
+TP=10570  FN=6563
+FP=2188  TN=30679
+
+Thresh = 0.2655: AMS = 3.2190, std = 0.0519
+Accuracy = 0.8275: Precision = 0.8205, FP = 0.1795
+Confusing matrix
+TP=10892  FN=6242
+FP=2383  TN=30483
+
+Thresh = 0.2759: AMS = 3.1609, std = 0.0487
+Accuracy = 0.8290: Precision = 0.8111, FP = 0.1889
+Confusing matrix
+TP=11188  FN=5946
+FP=2605  TN=30261
+
+Thresh = 0.2862: AMS = 3.1222, std = 0.0486
+Accuracy = 0.8304: Precision = 0.8024, FP = 0.1976
+Confusing matrix
+TP=11483  FN=5651
+FP=2827  TN=30039
+
+Thresh = 0.2966: AMS = 3.0690, std = 0.0586
+Accuracy = 0.8313: Precision = 0.7934, FP = 0.2066
+Confusing matrix
+TP=11764  FN=5370
+FP=3063  TN=29803
+
+Thresh = 0.3069: AMS = 3.0220, std = 0.0540
+Accuracy = 0.8320: Precision = 0.7845, FP = 0.2155
+Confusing matrix
+TP=12038  FN=5096
+FP=3306  TN=29560
+
+Thresh = 0.3172: AMS = 2.9761, std = 0.0513
+Accuracy = 0.8321: Precision = 0.7755, FP = 0.2245
+Confusing matrix
+TP=12300  FN=4833
+FP=3562  TN=29305
+
+Thresh = 0.3276: AMS = 2.9265, std = 0.0476
+Accuracy = 0.8316: Precision = 0.7660, FP = 0.2340
+Confusing matrix
+TP=12547  FN=4587
+FP=3832  TN=29034
+
+Thresh = 0.3379: AMS = 2.8793, std = 0.0433
+Accuracy = 0.8309: Precision = 0.7568, FP = 0.2432
+Confusing matrix
+TP=12786  FN=4347
+FP=4110  TN=28757
+
+Thresh = 0.3483: AMS = 2.8300, std = 0.0399
+Accuracy = 0.8295: Precision = 0.7472, FP = 0.2528
+Confusing matrix
+TP=13010  FN=4123
+FP=4403  TN=28464
+
+Thresh = 0.3586: AMS = 2.7746, std = 0.0387
+Accuracy = 0.8275: Precision = 0.7372, FP = 0.2628
+Confusing matrix
+TP=13220  FN=3914
+FP=4711  TN=28155
+
+Thresh = 0.3690: AMS = 2.7269, std = 0.0374
+Accuracy = 0.8253: Precision = 0.7276, FP = 0.2724
+Confusing matrix
+TP=13423  FN=3711
+FP=5025  TN=27841
+
+Thresh = 0.3793: AMS = 2.6810, std = 0.0320
+Accuracy = 0.8227: Precision = 0.7180, FP = 0.2820
+Confusing matrix
+TP=13616  FN=3517
+FP=5349  TN=27518
+
+Thresh = 0.3897: AMS = 2.6429, std = 0.0305
+Accuracy = 0.8202: Precision = 0.7091, FP = 0.2909
+Confusing matrix
+TP=13814  FN=3320
+FP=5668  TN=27198
+
+Thresh = 0.4000: AMS = 2.5998, std = 0.0285
+Accuracy = 0.8174: Precision = 0.7000, FP = 0.3000
+Confusing matrix
+TP=14001  FN=3132
+FP=5999  TN=26868
+
+The best solution:
+Thresh = 0.1414: AMS = 3.5775, std = 0.0562
+
+-------------
+param max_depth=6
+param mini_child_weight=5
+--------------
+Best AMS =3.627502
+Best AMS =3.607827
+Best AMS =3.576700
+Best AMS =3.594504
+Best AMS =3.713512
+
+Thresh = 0.1000: AMS = 3.4190, std = 0.0734
+Accuracy = 0.7452: Precision = 0.9395, FP = 0.0605
+Confusing matrix
+TP=4697  FN=12436
+FP=303  TN=32564
+
+Thresh = 0.1103: AMS = 3.4786, std = 0.0698
+Accuracy = 0.7529: Precision = 0.9329, FP = 0.0671
+Confusing matrix
+TP=5147  FN=11987
+FP=370  TN=32496
+
+Thresh = 0.1207: AMS = 3.5383, std = 0.0594
+Accuracy = 0.7605: Precision = 0.9274, FP = 0.0726
+Confusing matrix
+TP=5596  FN=11537
+FP=438  TN=32429
+
+Thresh = 0.1310: AMS = 3.5686, std = 0.0640
+Accuracy = 0.7677: Precision = 0.9212, FP = 0.0788
+Confusing matrix
+TP=6035  FN=11099
+FP=516  TN=32350
+
+Thresh = 0.1414: AMS = 3.5714, std = 0.0489
+Accuracy = 0.7744: Precision = 0.9140, FP = 0.0860
+Confusing matrix
+TP=6460  FN=10673
+FP=608  TN=32259
+
+Thresh = 0.1517: AMS = 3.5845, std = 0.0676
+Accuracy = 0.7809: Precision = 0.9074, FP = 0.0926
+Confusing matrix
+TP=6883  FN=10250
+FP=703  TN=32164
+
+Thresh = 0.1621: AMS = 3.5896, std = 0.0671
+Accuracy = 0.7872: Precision = 0.9006, FP = 0.0994
+Confusing matrix
+TP=7297  FN=9836
+FP=806  TN=32061
+
+Thresh = 0.1724: AMS = 3.5761, std = 0.0619
+Accuracy = 0.7930: Precision = 0.8935, FP = 0.1065
+Confusing matrix
+TP=7702  FN=9431
+FP=918  TN=31949
+
+Thresh = 0.1828: AMS = 3.5544, std = 0.0748
+Accuracy = 0.7985: Precision = 0.8862, FP = 0.1138
+Confusing matrix
+TP=8097  FN=9037
+FP=1040  TN=31826
+
+Thresh = 0.1931: AMS = 3.5286, std = 0.0608
+Accuracy = 0.8035: Precision = 0.8785, FP = 0.1215
+Confusing matrix
+TP=8482  FN=8651
+FP=1173  TN=31694
+
+Thresh = 0.2034: AMS = 3.4851, std = 0.0573
+Accuracy = 0.8081: Precision = 0.8706, FP = 0.1294
+Confusing matrix
+TP=8856  FN=8277
+FP=1316  TN=31551
+
+Thresh = 0.2138: AMS = 3.4368, std = 0.0490
+Accuracy = 0.8123: Precision = 0.8625, FP = 0.1375
+Confusing matrix
+TP=9219  FN=7914
+FP=1470  TN=31397
+
+Thresh = 0.2241: AMS = 3.3796, std = 0.0442
+Accuracy = 0.8159: Precision = 0.8538, FP = 0.1462
+Confusing matrix
+TP=9568  FN=7566
+FP=1638  TN=31228
+
+Thresh = 0.2345: AMS = 3.3476, std = 0.0619
+Accuracy = 0.8197: Precision = 0.8463, FP = 0.1537
+Confusing matrix
+TP=9922  FN=7211
+FP=1802  TN=31065
+
+Thresh = 0.2448: AMS = 3.2962, std = 0.0595
+Accuracy = 0.8226: Precision = 0.8375, FP = 0.1625
+Confusing matrix
+TP=10252  FN=6882
+FP=1989  TN=30877
+
+Thresh = 0.2552: AMS = 3.2466, std = 0.0551
+Accuracy = 0.8251: Precision = 0.8287, FP = 0.1713
+Confusing matrix
+TP=10573  FN=6561
+FP=2185  TN=30681
+
+Thresh = 0.2655: AMS = 3.2024, std = 0.0446
+Accuracy = 0.8272: Precision = 0.8200, FP = 0.1800
+Confusing matrix
+TP=10885  FN=6248
+FP=2390  TN=30477
+
+Thresh = 0.2759: AMS = 3.1643, std = 0.0474
+Accuracy = 0.8290: Precision = 0.8112, FP = 0.1888
+Confusing matrix
+TP=11189  FN=5945
+FP=2604  TN=30262
+
+Thresh = 0.2862: AMS = 3.1145, std = 0.0480
+Accuracy = 0.8303: Precision = 0.8023, FP = 0.1977
+Confusing matrix
+TP=11480  FN=5653
+FP=2830  TN=30037
+
+Thresh = 0.2966: AMS = 3.0737, std = 0.0529
+Accuracy = 0.8312: Precision = 0.7932, FP = 0.2068
+Confusing matrix
+TP=11761  FN=5373
+FP=3066  TN=29800
+
+Thresh = 0.3069: AMS = 3.0231, std = 0.0569
+Accuracy = 0.8315: Precision = 0.7839, FP = 0.2161
+Confusing matrix
+TP=12027  FN=5106
+FP=3317  TN=29550
+
+Thresh = 0.3172: AMS = 2.9743, std = 0.0445
+Accuracy = 0.8316: Precision = 0.7747, FP = 0.2253
+Confusing matrix
+TP=12288  FN=4845
+FP=3574  TN=29293
+
+Thresh = 0.3276: AMS = 2.9172, std = 0.0400
+Accuracy = 0.8310: Precision = 0.7651, FP = 0.2349
+Confusing matrix
+TP=12531  FN=4602
+FP=3848  TN=29019
+
+Thresh = 0.3379: AMS = 2.8716, std = 0.0402
+Accuracy = 0.8303: Precision = 0.7559, FP = 0.2441
+Confusing matrix
+TP=12771  FN=4362
+FP=4125  TN=28742
+
+Thresh = 0.3483: AMS = 2.8281, std = 0.0397
+Accuracy = 0.8292: Precision = 0.7468, FP = 0.2532
+Confusing matrix
+TP=13004  FN=4129
+FP=4409  TN=28458
+
+Thresh = 0.3586: AMS = 2.7782, std = 0.0375
+Accuracy = 0.8275: Precision = 0.7373, FP = 0.2627
+Confusing matrix
+TP=13220  FN=3913
+FP=4711  TN=28156
+
+Thresh = 0.3690: AMS = 2.7334, std = 0.0318
+Accuracy = 0.8256: Precision = 0.7280, FP = 0.2720
+Confusing matrix
+TP=13431  FN=3702
+FP=5017  TN=27850
+
+Thresh = 0.3793: AMS = 2.6821, std = 0.0310
+Accuracy = 0.8230: Precision = 0.7184, FP = 0.2816
+Confusing matrix
+TP=13625  FN=3509
+FP=5340  TN=27526
+
+Thresh = 0.3897: AMS = 2.6411, std = 0.0324
+Accuracy = 0.8204: Precision = 0.7093, FP = 0.2907
+Confusing matrix
+TP=13819  FN=3315
+FP=5663  TN=27203
+
+Thresh = 0.4000: AMS = 2.5997, std = 0.0291
+Accuracy = 0.8176: Precision = 0.7003, FP = 0.2997
+Confusing matrix
+TP=14006  FN=3127
+FP=5994  TN=26873
+
+The best solution:
+Thresh = 0.1621: AMS = 3.5896, std = 0.0671
+
+-------------
+param max_depth=7
+param mini_child_weight=1
+--------------
+Best AMS =3.578288
+Best AMS =3.646757
+Best AMS =3.554620
+Best AMS =3.588136
+Best AMS =3.684317
+
+Thresh = 0.1000: AMS = 3.3206, std = 0.0769
+Accuracy = 0.7454: Precision = 0.9402, FP = 0.0598
+Confusing matrix
+TP=4701  FN=12433
+FP=299  TN=32567
+
+Thresh = 0.1103: AMS = 3.4197, std = 0.0389
+Accuracy = 0.7532: Precision = 0.9343, FP = 0.0657
+Confusing matrix
+TP=5154  FN=11979
+FP=363  TN=32504
+
+Thresh = 0.1207: AMS = 3.4954, std = 0.0760
+Accuracy = 0.7608: Precision = 0.9288, FP = 0.0712
+Confusing matrix
+TP=5604  FN=11529
+FP=430  TN=32437
+
+Thresh = 0.1310: AMS = 3.5305, std = 0.0692
+Accuracy = 0.7679: Precision = 0.9218, FP = 0.0782
+Confusing matrix
+TP=6039  FN=11094
+FP=512  TN=32355
+
+Thresh = 0.1414: AMS = 3.5467, std = 0.0560
+Accuracy = 0.7747: Precision = 0.9153, FP = 0.0847
+Confusing matrix
+TP=6469  FN=10664
+FP=599  TN=32268
+
+Thresh = 0.1517: AMS = 3.5578, std = 0.0682
+Accuracy = 0.7814: Precision = 0.9087, FP = 0.0913
+Confusing matrix
+TP=6894  FN=10240
+FP=692  TN=32174
+
+Thresh = 0.1621: AMS = 3.5498, std = 0.0607
+Accuracy = 0.7875: Precision = 0.9016, FP = 0.0984
+Confusing matrix
+TP=7306  FN=9828
+FP=797  TN=32069
+
+Thresh = 0.1724: AMS = 3.5651, std = 0.0705
+Accuracy = 0.7937: Precision = 0.8954, FP = 0.1046
+Confusing matrix
+TP=7719  FN=9415
+FP=901  TN=31965
+
+Thresh = 0.1828: AMS = 3.5284, std = 0.0414
+Accuracy = 0.7990: Precision = 0.8877, FP = 0.1123
+Confusing matrix
+TP=8111  FN=9022
+FP=1026  TN=31841
+
+Thresh = 0.1931: AMS = 3.4823, std = 0.0571
+Accuracy = 0.8038: Precision = 0.8792, FP = 0.1208
+Confusing matrix
+TP=8488  FN=8645
+FP=1167  TN=31700
+
+Thresh = 0.2034: AMS = 3.4655, std = 0.0758
+Accuracy = 0.8086: Precision = 0.8717, FP = 0.1283
+Confusing matrix
+TP=8867  FN=8267
+FP=1305  TN=31561
+
+Thresh = 0.2138: AMS = 3.4206, std = 0.0590
+Accuracy = 0.8126: Precision = 0.8632, FP = 0.1368
+Confusing matrix
+TP=9227  FN=7906
+FP=1462  TN=31405
+
+Thresh = 0.2241: AMS = 3.3978, std = 0.0407
+Accuracy = 0.8167: Precision = 0.8556, FP = 0.1444
+Confusing matrix
+TP=9588  FN=7545
+FP=1618  TN=31249
+
+Thresh = 0.2345: AMS = 3.3363, std = 0.0333
+Accuracy = 0.8199: Precision = 0.8466, FP = 0.1534
+Confusing matrix
+TP=9925  FN=7208
+FP=1799  TN=31068
+
+Thresh = 0.2448: AMS = 3.2868, std = 0.0334
+Accuracy = 0.8228: Precision = 0.8379, FP = 0.1621
+Confusing matrix
+TP=10257  FN=6877
+FP=1984  TN=30882
+
+Thresh = 0.2552: AMS = 3.2526, std = 0.0386
+Accuracy = 0.8256: Precision = 0.8297, FP = 0.1703
+Confusing matrix
+TP=10586  FN=6548
+FP=2172  TN=30694
+
+Thresh = 0.2655: AMS = 3.2017, std = 0.0420
+Accuracy = 0.8274: Precision = 0.8202, FP = 0.1798
+Confusing matrix
+TP=10888  FN=6245
+FP=2387  TN=30480
+
+Thresh = 0.2759: AMS = 3.1449, std = 0.0540
+Accuracy = 0.8291: Precision = 0.8114, FP = 0.1886
+Confusing matrix
+TP=11191  FN=5942
+FP=2602  TN=30265
+
+Thresh = 0.2862: AMS = 3.1001, std = 0.0543
+Accuracy = 0.8303: Precision = 0.8023, FP = 0.1977
+Confusing matrix
+TP=11480  FN=5653
+FP=2830  TN=30037
+
+Thresh = 0.2966: AMS = 3.0492, std = 0.0448
+Accuracy = 0.8312: Precision = 0.7931, FP = 0.2069
+Confusing matrix
+TP=11760  FN=5373
+FP=3067  TN=29800
+
+Thresh = 0.3069: AMS = 2.9985, std = 0.0410
+Accuracy = 0.8315: Precision = 0.7837, FP = 0.2163
+Confusing matrix
+TP=12025  FN=5108
+FP=3319  TN=29548
+
+Thresh = 0.3172: AMS = 2.9471, std = 0.0471
+Accuracy = 0.8314: Precision = 0.7743, FP = 0.2257
+Confusing matrix
+TP=12283  FN=4851
+FP=3579  TN=29287
+
+Thresh = 0.3276: AMS = 2.9036, std = 0.0468
+Accuracy = 0.8312: Precision = 0.7654, FP = 0.2346
+Confusing matrix
+TP=12536  FN=4597
+FP=3843  TN=29024
+
+Thresh = 0.3379: AMS = 2.8653, std = 0.0514
+Accuracy = 0.8307: Precision = 0.7566, FP = 0.2434
+Confusing matrix
+TP=12783  FN=4350
+FP=4113  TN=28754
+
+Thresh = 0.3483: AMS = 2.8151, std = 0.0439
+Accuracy = 0.8292: Precision = 0.7468, FP = 0.2532
+Confusing matrix
+TP=13003  FN=4130
+FP=4410  TN=28457
+
+Thresh = 0.3586: AMS = 2.7668, std = 0.0447
+Accuracy = 0.8276: Precision = 0.7374, FP = 0.2626
+Confusing matrix
+TP=13222  FN=3912
+FP=4709  TN=28157
+
+Thresh = 0.3690: AMS = 2.7210, std = 0.0394
+Accuracy = 0.8255: Precision = 0.7279, FP = 0.2721
+Confusing matrix
+TP=13428  FN=3706
+FP=5020  TN=27846
+
+Thresh = 0.3793: AMS = 2.6775, std = 0.0331
+Accuracy = 0.8233: Precision = 0.7188, FP = 0.2812
+Confusing matrix
+TP=13632  FN=3502
+FP=5333  TN=27533
+
+Thresh = 0.3897: AMS = 2.6309, std = 0.0328
+Accuracy = 0.8205: Precision = 0.7093, FP = 0.2907
+Confusing matrix
+TP=13819  FN=3314
+FP=5663  TN=27204
+
+Thresh = 0.4000: AMS = 2.5881, std = 0.0263
+Accuracy = 0.8175: Precision = 0.7002, FP = 0.2998
+Confusing matrix
+TP=14005  FN=3129
+FP=5995  TN=26871
+
+The best solution:
+Thresh = 0.1724: AMS = 3.5651, std = 0.0705
+
+-------------
+param max_depth=7
+param mini_child_weight=3
+--------------
+Best AMS =3.619210
+Best AMS =3.547182
+Best AMS =3.588832
+Best AMS =3.631952
+Best AMS =3.614122
+
+Thresh = 0.1000: AMS = 3.3567, std = 0.1143
+Accuracy = 0.7451: Precision = 0.9386, FP = 0.0614
+Confusing matrix
+TP=4693  FN=12440
+FP=307  TN=32560
+
+Thresh = 0.1103: AMS = 3.4018, std = 0.0837
+Accuracy = 0.7528: Precision = 0.9325, FP = 0.0675
+Confusing matrix
+TP=5145  FN=11989
+FP=372  TN=32494
+
+Thresh = 0.1207: AMS = 3.4533, std = 0.0198
+Accuracy = 0.7604: Precision = 0.9269, FP = 0.0731
+Confusing matrix
+TP=5593  FN=11540
+FP=441  TN=32426
+
+Thresh = 0.1310: AMS = 3.5120, std = 0.0476
+Accuracy = 0.7677: Precision = 0.9214, FP = 0.0786
+Confusing matrix
+TP=6036  FN=11098
+FP=515  TN=32351
+
+Thresh = 0.1414: AMS = 3.5639, std = 0.0276
+Accuracy = 0.7747: Precision = 0.9151, FP = 0.0849
+Confusing matrix
+TP=6468  FN=10665
+FP=600  TN=32267
+
+Thresh = 0.1517: AMS = 3.5788, std = 0.0492
+Accuracy = 0.7816: Precision = 0.9094, FP = 0.0906
+Confusing matrix
+TP=6899  FN=10235
+FP=687  TN=32179
+
+Thresh = 0.1621: AMS = 3.5563, std = 0.0538
+Accuracy = 0.7876: Precision = 0.9018, FP = 0.0982
+Confusing matrix
+TP=7308  FN=9826
+FP=795  TN=32071
+
+Thresh = 0.1724: AMS = 3.5525, std = 0.0587
+Accuracy = 0.7935: Precision = 0.8948, FP = 0.1052
+Confusing matrix
+TP=7714  FN=9420
+FP=906  TN=31960
+
+Thresh = 0.1828: AMS = 3.5329, std = 0.0269
+Accuracy = 0.7989: Precision = 0.8874, FP = 0.1126
+Confusing matrix
+TP=8108  FN=9025
+FP=1029  TN=31838
+
+Thresh = 0.1931: AMS = 3.4902, std = 0.0537
+Accuracy = 0.8039: Precision = 0.8795, FP = 0.1205
+Confusing matrix
+TP=8492  FN=8641
+FP=1163  TN=31704
+
+Thresh = 0.2034: AMS = 3.4719, std = 0.0496
+Accuracy = 0.8087: Precision = 0.8721, FP = 0.1279
+Confusing matrix
+TP=8871  FN=8262
+FP=1301  TN=31566
+
+Thresh = 0.2138: AMS = 3.4230, std = 0.0443
+Accuracy = 0.8126: Precision = 0.8631, FP = 0.1369
+Confusing matrix
+TP=9226  FN=7907
+FP=1463  TN=31404
+
+Thresh = 0.2241: AMS = 3.3790, std = 0.0338
+Accuracy = 0.8164: Precision = 0.8549, FP = 0.1451
+Confusing matrix
+TP=9580  FN=7553
+FP=1626  TN=31241
+
+Thresh = 0.2345: AMS = 3.3351, std = 0.0468
+Accuracy = 0.8198: Precision = 0.8464, FP = 0.1536
+Confusing matrix
+TP=9923  FN=7211
+FP=1801  TN=31065
+
+Thresh = 0.2448: AMS = 3.2936, std = 0.0362
+Accuracy = 0.8228: Precision = 0.8380, FP = 0.1620
+Confusing matrix
+TP=10258  FN=6875
+FP=1983  TN=30884
+
+Thresh = 0.2552: AMS = 3.2406, std = 0.0306
+Accuracy = 0.8252: Precision = 0.8290, FP = 0.1710
+Confusing matrix
+TP=10576  FN=6557
+FP=2182  TN=30685
+
+Thresh = 0.2655: AMS = 3.1918, std = 0.0275
+Accuracy = 0.8273: Precision = 0.8201, FP = 0.1799
+Confusing matrix
+TP=10887  FN=6247
+FP=2388  TN=30478
+
+Thresh = 0.2759: AMS = 3.1442, std = 0.0408
+Accuracy = 0.8290: Precision = 0.8112, FP = 0.1888
+Confusing matrix
+TP=11189  FN=5944
+FP=2604  TN=30263
+
+Thresh = 0.2862: AMS = 3.0908, std = 0.0357
+Accuracy = 0.8303: Precision = 0.8022, FP = 0.1978
+Confusing matrix
+TP=11479  FN=5654
+FP=2831  TN=30036
+
+Thresh = 0.2966: AMS = 3.0425, std = 0.0408
+Accuracy = 0.8314: Precision = 0.7934, FP = 0.2066
+Confusing matrix
+TP=11764  FN=5369
+FP=3063  TN=29804
+
+Thresh = 0.3069: AMS = 2.9959, std = 0.0447
+Accuracy = 0.8316: Precision = 0.7839, FP = 0.2161
+Confusing matrix
+TP=12028  FN=5106
+FP=3316  TN=29550
+
+Thresh = 0.3172: AMS = 2.9427, std = 0.0461
+Accuracy = 0.8313: Precision = 0.7741, FP = 0.2259
+Confusing matrix
+TP=12279  FN=4854
+FP=3583  TN=29284
+
+Thresh = 0.3276: AMS = 2.9029, std = 0.0483
+Accuracy = 0.8312: Precision = 0.7654, FP = 0.2346
+Confusing matrix
+TP=12537  FN=4597
+FP=3842  TN=29024
+
+Thresh = 0.3379: AMS = 2.8632, std = 0.0461
+Accuracy = 0.8307: Precision = 0.7565, FP = 0.2435
+Confusing matrix
+TP=12782  FN=4352
+FP=4114  TN=28752
+
+Thresh = 0.3483: AMS = 2.8152, std = 0.0467
+Accuracy = 0.8292: Precision = 0.7468, FP = 0.2532
+Confusing matrix
+TP=13004  FN=4129
+FP=4409  TN=28458
+
+Thresh = 0.3586: AMS = 2.7690, std = 0.0410
+Accuracy = 0.8278: Precision = 0.7377, FP = 0.2623
+Confusing matrix
+TP=13228  FN=3906
+FP=4703  TN=28163
+
+Thresh = 0.3690: AMS = 2.7251, std = 0.0383
+Accuracy = 0.8258: Precision = 0.7283, FP = 0.2717
+Confusing matrix
+TP=13436  FN=3698
+FP=5012  TN=27854
+
+Thresh = 0.3793: AMS = 2.6868, std = 0.0386
+Accuracy = 0.8238: Precision = 0.7195, FP = 0.2805
+Confusing matrix
+TP=13645  FN=3489
+FP=5320  TN=27546
+
+Thresh = 0.3897: AMS = 2.6382, std = 0.0338
+Accuracy = 0.8209: Precision = 0.7099, FP = 0.2901
+Confusing matrix
+TP=13830  FN=3303
+FP=5652  TN=27215
+
+Thresh = 0.4000: AMS = 2.5920, std = 0.0301
+Accuracy = 0.8175: Precision = 0.7002, FP = 0.2999
+Confusing matrix
+TP=14003  FN=3130
+FP=5997  TN=26870
+
+The best solution:
+Thresh = 0.1517: AMS = 3.5788, std = 0.0492
+
+-------------
+param max_depth=7
+param mini_child_weight=5
+--------------
+Best AMS =3.561406
+Best AMS =3.559615
+Best AMS =3.573552
+Best AMS =3.597749
+Best AMS =3.640607
+
+Thresh = 0.1000: AMS = 3.3949, std = 0.0506
+Accuracy = 0.7451: Precision = 0.9388, FP = 0.0612
+Confusing matrix
+TP=4694  FN=12440
+FP=306  TN=32560
+
+Thresh = 0.1103: AMS = 3.4898, std = 0.0630
+Accuracy = 0.7530: Precision = 0.9336, FP = 0.0664
+Confusing matrix
+TP=5151  FN=11983
+FP=366  TN=32500
+
+Thresh = 0.1207: AMS = 3.5149, std = 0.0269
+Accuracy = 0.7606: Precision = 0.9277, FP = 0.0723
+Confusing matrix
+TP=5598  FN=11536
+FP=436  TN=32430
+
+Thresh = 0.1310: AMS = 3.5270, std = 0.0581
+Accuracy = 0.7677: Precision = 0.9211, FP = 0.0789
+Confusing matrix
+TP=6034  FN=11099
+FP=517  TN=32350
+
+Thresh = 0.1414: AMS = 3.5478, std = 0.0453
+Accuracy = 0.7747: Precision = 0.9150, FP = 0.0850
+Confusing matrix
+TP=6467  FN=10666
+FP=601  TN=32266
+
+Thresh = 0.1517: AMS = 3.5362, std = 0.0548
+Accuracy = 0.7811: Precision = 0.9079, FP = 0.0921
+Confusing matrix
+TP=6887  FN=10246
+FP=699  TN=32168
+
+Thresh = 0.1621: AMS = 3.5110, std = 0.0633
+Accuracy = 0.7870: Precision = 0.9000, FP = 0.1000
+Confusing matrix
+TP=7293  FN=9840
+FP=810  TN=32057
+
+Thresh = 0.1724: AMS = 3.5247, std = 0.0637
+Accuracy = 0.7931: Precision = 0.8937, FP = 0.1063
+Confusing matrix
+TP=7704  FN=9429
+FP=916  TN=31951
+
+Thresh = 0.1828: AMS = 3.5073, std = 0.0566
+Accuracy = 0.7985: Precision = 0.8863, FP = 0.1137
+Confusing matrix
+TP=8098  FN=9035
+FP=1039  TN=31828
+
+Thresh = 0.1931: AMS = 3.5102, std = 0.0692
+Accuracy = 0.8038: Precision = 0.8793, FP = 0.1207
+Confusing matrix
+TP=8489  FN=8644
+FP=1166  TN=31701
+
+Thresh = 0.2034: AMS = 3.4775, std = 0.0602
+Accuracy = 0.8085: Precision = 0.8716, FP = 0.1284
+Confusing matrix
+TP=8866  FN=8267
+FP=1306  TN=31561
+
+Thresh = 0.2138: AMS = 3.4288, std = 0.0600
+Accuracy = 0.8127: Precision = 0.8634, FP = 0.1366
+Confusing matrix
+TP=9229  FN=7904
+FP=1460  TN=31407
+
+Thresh = 0.2241: AMS = 3.3792, std = 0.0244
+Accuracy = 0.8164: Precision = 0.8548, FP = 0.1452
+Confusing matrix
+TP=9579  FN=7554
+FP=1627  TN=31240
+
+Thresh = 0.2345: AMS = 3.3446, std = 0.0245
+Accuracy = 0.8200: Precision = 0.8468, FP = 0.1532
+Confusing matrix
+TP=9928  FN=7205
+FP=1796  TN=31071
+
+Thresh = 0.2448: AMS = 3.2807, std = 0.0169
+Accuracy = 0.8224: Precision = 0.8372, FP = 0.1628
+Confusing matrix
+TP=10248  FN=6886
+FP=1993  TN=30873
+
+Thresh = 0.2552: AMS = 3.2303, std = 0.0195
+Accuracy = 0.8249: Precision = 0.8284, FP = 0.1716
+Confusing matrix
+TP=10568  FN=6565
+FP=2190  TN=30677
+
+Thresh = 0.2655: AMS = 3.1836, std = 0.0295
+Accuracy = 0.8275: Precision = 0.8204, FP = 0.1796
+Confusing matrix
+TP=10891  FN=6243
+FP=2384  TN=30482
+
+Thresh = 0.2759: AMS = 3.1353, std = 0.0396
+Accuracy = 0.8290: Precision = 0.8111, FP = 0.1889
+Confusing matrix
+TP=11188  FN=5945
+FP=2605  TN=30262
+
+Thresh = 0.2862: AMS = 3.0830, std = 0.0407
+Accuracy = 0.8299: Precision = 0.8015, FP = 0.1985
+Confusing matrix
+TP=11469  FN=5665
+FP=2841  TN=30025
+
+Thresh = 0.2966: AMS = 3.0326, std = 0.0505
+Accuracy = 0.8305: Precision = 0.7920, FP = 0.2080
+Confusing matrix
+TP=11743  FN=5390
+FP=3084  TN=29783
+
+Thresh = 0.3069: AMS = 2.9885, std = 0.0497
+Accuracy = 0.8311: Precision = 0.7831, FP = 0.2169
+Confusing matrix
+TP=12015  FN=5118
+FP=3329  TN=29538
+
+Thresh = 0.3172: AMS = 2.9350, std = 0.0468
+Accuracy = 0.8309: Precision = 0.7735, FP = 0.2265
+Confusing matrix
+TP=12270  FN=4863
+FP=3592  TN=29275
+
+Thresh = 0.3276: AMS = 2.8887, std = 0.0457
+Accuracy = 0.8305: Precision = 0.7643, FP = 0.2357
+Confusing matrix
+TP=12519  FN=4614
+FP=3860  TN=29007
+
+Thresh = 0.3379: AMS = 2.8471, std = 0.0517
+Accuracy = 0.8300: Precision = 0.7555, FP = 0.2445
+Confusing matrix
+TP=12766  FN=4368
+FP=4130  TN=28736
+
+Thresh = 0.3483: AMS = 2.8098, std = 0.0480
+Accuracy = 0.8295: Precision = 0.7472, FP = 0.2528
+Confusing matrix
+TP=13012  FN=4122
+FP=4401  TN=28465
+
+Thresh = 0.3586: AMS = 2.7632, std = 0.0413
+Accuracy = 0.8280: Precision = 0.7380, FP = 0.2620
+Confusing matrix
+TP=13233  FN=3900
+FP=4698  TN=28169
+
+Thresh = 0.3690: AMS = 2.7292, std = 0.0358
+Accuracy = 0.8263: Precision = 0.7289, FP = 0.2711
+Confusing matrix
+TP=13447  FN=3686
+FP=5001  TN=27866
+
+Thresh = 0.3793: AMS = 2.6883, std = 0.0326
+Accuracy = 0.8241: Precision = 0.7199, FP = 0.2801
+Confusing matrix
+TP=13652  FN=3481
+FP=5313  TN=27554
+
+Thresh = 0.3897: AMS = 2.6394, std = 0.0289
+Accuracy = 0.8212: Precision = 0.7103, FP = 0.2897
+Confusing matrix
+TP=13837  FN=3296
+FP=5645  TN=27222
+
+Thresh = 0.4000: AMS = 2.5920, std = 0.0335
+Accuracy = 0.8179: Precision = 0.7007, FP = 0.2993
+Confusing matrix
+TP=14015  FN=3119
+FP=5985  TN=26881
+
+The best solution:
+Thresh = 0.1414: AMS = 3.5478, std = 0.0453
+tuning parameters=
+param colsample_bytree=0.9
+param silent=1
+param eval_metric=rmse
+param learning_rate=0.2
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=200.000000
+tuning parameters=
+param colsample_bytree=0.9
+param silent=1
+param eval_metric=rmse
+param learning_rate=0.2
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=200.000000
+Best AMS =3.611855
+Best AMS =3.463863
+Best AMS =3.551776
+Best AMS =3.670104
+Best AMS =3.537323
+
+Thresh = 0.1000: AMS = 3.3779, std = 0.0771
+Accuracy = 0.7455: Precision = 0.9406, FP = 0.0594
+Confusing matrix
+TP=4703  FN=12430
+FP=297  TN=32570
+
+Thresh = 0.1103: AMS = 3.4138, std = 0.0717
+Accuracy = 0.7532: Precision = 0.9345, FP = 0.0655
+Confusing matrix
+TP=5155  FN=11978
+FP=362  TN=32505
+
+Thresh = 0.1207: AMS = 3.4404, std = 0.0381
+Accuracy = 0.7604: Precision = 0.9271, FP = 0.0729
+Confusing matrix
+TP=5594  FN=11539
+FP=440  TN=32427
+
+Thresh = 0.1310: AMS = 3.5296, std = 0.0435
+Accuracy = 0.7677: Precision = 0.9212, FP = 0.0788
+Confusing matrix
+TP=6035  FN=11098
+FP=516  TN=32351
+
+Thresh = 0.1414: AMS = 3.5235, std = 0.0662
+Accuracy = 0.7744: Precision = 0.9141, FP = 0.0859
+Confusing matrix
+TP=6461  FN=10673
+FP=607  TN=32259
+
+Thresh = 0.1517: AMS = 3.5371, std = 0.0739
+Accuracy = 0.7810: Precision = 0.9074, FP = 0.0926
+Confusing matrix
+TP=6884  FN=10250
+FP=702  TN=32164
+
+Thresh = 0.1621: AMS = 3.5373, std = 0.0869
+Accuracy = 0.7873: Precision = 0.9009, FP = 0.0991
+Confusing matrix
+TP=7300  FN=9834
+FP=803  TN=32063
+
+Thresh = 0.1724: AMS = 3.5086, std = 0.0894
+Accuracy = 0.7929: Precision = 0.8932, FP = 0.1068
+Confusing matrix
+TP=7700  FN=9434
+FP=920  TN=31946
+
+Thresh = 0.1828: AMS = 3.4899, std = 0.0870
+Accuracy = 0.7983: Precision = 0.8856, FP = 0.1144
+Confusing matrix
+TP=8092  FN=9041
+FP=1045  TN=31822
+
+Thresh = 0.1931: AMS = 3.4619, std = 0.0850
+Accuracy = 0.8033: Precision = 0.8779, FP = 0.1221
+Confusing matrix
+TP=8476  FN=8657
+FP=1179  TN=31688
+
+Thresh = 0.2034: AMS = 3.4334, std = 0.0807
+Accuracy = 0.8080: Precision = 0.8702, FP = 0.1298
+Confusing matrix
+TP=8852  FN=8282
+FP=1320  TN=31546
+
+Thresh = 0.2138: AMS = 3.4074, std = 0.0827
+Accuracy = 0.8122: Precision = 0.8623, FP = 0.1377
+Confusing matrix
+TP=9217  FN=7916
+FP=1472  TN=31395
+
+Thresh = 0.2241: AMS = 3.3700, std = 0.0613
+Accuracy = 0.8161: Precision = 0.8543, FP = 0.1457
+Confusing matrix
+TP=9573  FN=7560
+FP=1633  TN=31234
+
+Thresh = 0.2345: AMS = 3.3294, std = 0.0688
+Accuracy = 0.8196: Precision = 0.8459, FP = 0.1541
+Confusing matrix
+TP=9918  FN=7216
+FP=1806  TN=31060
+
+Thresh = 0.2448: AMS = 3.2720, std = 0.0522
+Accuracy = 0.8224: Precision = 0.8371, FP = 0.1629
+Confusing matrix
+TP=10247  FN=6887
+FP=1994  TN=30872
+
+Thresh = 0.2552: AMS = 3.2206, std = 0.0465
+Accuracy = 0.8248: Precision = 0.8282, FP = 0.1718
+Confusing matrix
+TP=10567  FN=6567
+FP=2191  TN=30675
+
+Thresh = 0.2655: AMS = 3.1708, std = 0.0475
+Accuracy = 0.8268: Precision = 0.8192, FP = 0.1808
+Confusing matrix
+TP=10875  FN=6258
+FP=2400  TN=30467
+
+Thresh = 0.2759: AMS = 3.1176, std = 0.0490
+Accuracy = 0.8285: Precision = 0.8103, FP = 0.1897
+Confusing matrix
+TP=11176  FN=5957
+FP=2617  TN=30250
+
+Thresh = 0.2862: AMS = 3.0770, std = 0.0470
+Accuracy = 0.8298: Precision = 0.8013, FP = 0.1987
+Confusing matrix
+TP=11467  FN=5667
+FP=2843  TN=30023
+
+Thresh = 0.2966: AMS = 3.0306, std = 0.0391
+Accuracy = 0.8308: Precision = 0.7925, FP = 0.2075
+Confusing matrix
+TP=11750  FN=5383
+FP=3077  TN=29790
+
+Thresh = 0.3069: AMS = 2.9877, std = 0.0475
+Accuracy = 0.8314: Precision = 0.7837, FP = 0.2163
+Confusing matrix
+TP=12025  FN=5109
+FP=3319  TN=29547
+
+Thresh = 0.3172: AMS = 2.9408, std = 0.0450
+Accuracy = 0.8315: Precision = 0.7746, FP = 0.2254
+Confusing matrix
+TP=12286  FN=4847
+FP=3576  TN=29291
+
+Thresh = 0.3276: AMS = 2.8884, std = 0.0479
+Accuracy = 0.8311: Precision = 0.7652, FP = 0.2348
+Confusing matrix
+TP=12533  FN=4600
+FP=3846  TN=29021
+
+Thresh = 0.3379: AMS = 2.8425, std = 0.0370
+Accuracy = 0.8303: Precision = 0.7559, FP = 0.2441
+Confusing matrix
+TP=12771  FN=4362
+FP=4125  TN=28742
+
+Thresh = 0.3483: AMS = 2.7971, std = 0.0404
+Accuracy = 0.8293: Precision = 0.7469, FP = 0.2531
+Confusing matrix
+TP=13005  FN=4128
+FP=4408  TN=28459
+
+Thresh = 0.3586: AMS = 2.7521, std = 0.0408
+Accuracy = 0.8275: Precision = 0.7372, FP = 0.2628
+Confusing matrix
+TP=13219  FN=3915
+FP=4712  TN=28154
+
+Thresh = 0.3690: AMS = 2.7035, std = 0.0448
+Accuracy = 0.8254: Precision = 0.7277, FP = 0.2723
+Confusing matrix
+TP=13425  FN=3708
+FP=5023  TN=27844
+
+Thresh = 0.3793: AMS = 2.6638, std = 0.0403
+Accuracy = 0.8231: Precision = 0.7185, FP = 0.2815
+Confusing matrix
+TP=13626  FN=3508
+FP=5339  TN=27527
+
+Thresh = 0.3897: AMS = 2.6177, std = 0.0433
+Accuracy = 0.8204: Precision = 0.7093, FP = 0.2907
+Confusing matrix
+TP=13818  FN=3315
+FP=5664  TN=27203
+
+Thresh = 0.4000: AMS = 2.5767, std = 0.0360
+Accuracy = 0.8173: Precision = 0.6999, FP = 0.3001
+Confusing matrix
+TP=13999  FN=3135
+FP=6001  TN=26865
+
+The best solution:
+Thresh = 0.1621: AMS = 3.5373, std = 0.0869
+tuning parameters=
+param colsample_bytree=0.9
+param silent=1
+param eval_metric=rmse
+param learning_rate=0.2
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=200.000000
+tuning parameters=
+param colsample_bytree=0.9
+param silent=1
+param eval_metric=rmse
+param learning_rate=0.2
+param nthread=1
+param min_child_weight=1
+param bst:max_depth=6
+param subsample=1
+param objective=binary:logitraw
+param gamma=0
+nfolds=5.000000
+num_round=200.000000
+-------**************---------
+Finall compuation on Training and test data only
+Best AMS =4.918185
+Thresh = 0.14000: AMS = 4.8965, std = 0.0000
+Thresh = 0.14051: AMS = 4.9024, std = 0.0000
+Thresh = 0.14103: AMS = 4.8949, std = 0.0000
+Thresh = 0.14154: AMS = 4.8996, std = 0.0000
+Thresh = 0.14205: AMS = 4.8923, std = 0.0000
+Thresh = 0.14256: AMS = 4.8926, std = 0.0000
+Thresh = 0.14308: AMS = 4.9022, std = 0.0000
+Thresh = 0.14359: AMS = 4.8906, std = 0.0000
+Thresh = 0.14410: AMS = 4.8916, std = 0.0000
+Thresh = 0.14462: AMS = 4.8970, std = 0.0000
+Thresh = 0.14513: AMS = 4.9039, std = 0.0000
+Thresh = 0.14564: AMS = 4.9096, std = 0.0000
+Thresh = 0.14615: AMS = 4.9182, std = 0.0000
+Thresh = 0.14667: AMS = 4.9182, std = 0.0000
+Thresh = 0.14718: AMS = 4.8978, std = 0.0000
+Thresh = 0.14769: AMS = 4.9023, std = 0.0000
+Thresh = 0.14821: AMS = 4.8993, std = 0.0000
+Thresh = 0.14872: AMS = 4.8996, std = 0.0000
+Thresh = 0.14923: AMS = 4.9072, std = 0.0000
+Thresh = 0.14974: AMS = 4.9122, std = 0.0000
+Thresh = 0.15026: AMS = 4.9059, std = 0.0000
+Thresh = 0.15077: AMS = 4.9080, std = 0.0000
+Thresh = 0.15128: AMS = 4.8991, std = 0.0000
+Thresh = 0.15179: AMS = 4.8981, std = 0.0000
+Thresh = 0.15231: AMS = 4.8981, std = 0.0000
+Thresh = 0.15282: AMS = 4.8941, std = 0.0000
+Thresh = 0.15333: AMS = 4.8928, std = 0.0000
+Thresh = 0.15385: AMS = 4.8857, std = 0.0000
+Thresh = 0.15436: AMS = 4.8799, std = 0.0000
+Thresh = 0.15487: AMS = 4.8835, std = 0.0000
+Thresh = 0.15538: AMS = 4.8790, std = 0.0000
+Thresh = 0.15590: AMS = 4.8787, std = 0.0000
+Thresh = 0.15641: AMS = 4.8652, std = 0.0000
+Thresh = 0.15692: AMS = 4.8487, std = 0.0000
+Thresh = 0.15744: AMS = 4.8430, std = 0.0000
+Thresh = 0.15795: AMS = 4.8361, std = 0.0000
+Thresh = 0.15846: AMS = 4.8238, std = 0.0000
+Thresh = 0.15897: AMS = 4.8269, std = 0.0000
+Thresh = 0.15949: AMS = 4.8295, std = 0.0000
+Thresh = 0.16000: AMS = 4.8321, std = 0.0000
